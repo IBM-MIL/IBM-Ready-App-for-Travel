@@ -33,4 +33,4 @@ Please visit [this page](http://lexdcy040194.ecloud.edst.ibm.com/travel_1_0_0/ho
 
 ## License
 
-IBM Ready App for Travel & Transportation is available under the IBM Ready Apps License Agreement. See the [License file](https://github.com/IBM-MIL/IBM-Ready-App-for-Venue/blob/master/License.txt) for more details.
+IBM Ready App for Travel & Transportation is available under the IBM Ready Apps License Agreement. See the [License file](https://github.com/IBM-MIL/IBM-Ready-App-for-Travel/blob/master/License.txt) for more details.
