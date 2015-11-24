@@ -1,0 +1,374 @@
+# Vocabulary Properties
+uuid = c8907ff3-aecb-40b9-971f-cd9e8dfbf0a2
+
+# com.ibm.ra.remy.common.impl.CloudantLocation
+com.ibm.ra.remy.common.impl.CloudantLocation#concept.label = cloudant location
+com.ibm.ra.remy.common.impl.CloudantLocation.city#phrase.action = set the city of {this} to {city}
+com.ibm.ra.remy.common.impl.CloudantLocation.city#phrase.navigation = {city} of {this}
+com.ibm.ra.remy.common.impl.CloudantLocation.country#phrase.action = set the country of {this} to {country}
+com.ibm.ra.remy.common.impl.CloudantLocation.country#phrase.navigation = {country} of {this}
+com.ibm.ra.remy.common.impl.CloudantLocation.latitude#phrase.navigation = {latitude} of {this}
+com.ibm.ra.remy.common.impl.CloudantLocation.longitude#phrase.navigation = {longitude} of {this}
+com.ibm.ra.remy.common.impl.CloudantLocation.toString()#phrase.navigation = {this}.toString()
+
+# com.ibm.ra.remy.common.impl.CloudantObject
+com.ibm.ra.remy.common.impl.CloudantObject#concept.label = cloudant object
+com.ibm.ra.remy.common.impl.CloudantObject._rev#phrase.action = set the rev of {this} to {rev}
+com.ibm.ra.remy.common.impl.CloudantObject._rev#phrase.navigation = {rev} of {this}
+com.ibm.ra.remy.common.impl.CloudantObject.id#phrase.action = set the id of {this} to {id}
+com.ibm.ra.remy.common.impl.CloudantObject.id#phrase.navigation = {id} of {this}
+com.ibm.ra.remy.common.impl.CloudantObject.toString()#phrase.navigation = {this}.toString()
+com.ibm.ra.remy.common.impl.CloudantObject.type#phrase.action = set the type of {this} to {type}
+com.ibm.ra.remy.common.impl.CloudantObject.type#phrase.navigation = {type} of {this}
+
+# com.ibm.ra.remy.common.impl.GooglePlacesLocation
+com.ibm.ra.remy.common.impl.GooglePlacesLocation#concept.label = google places location
+com.ibm.ra.remy.common.impl.GooglePlacesLocation.city#phrase.action = set the city of {this} to {city}
+com.ibm.ra.remy.common.impl.GooglePlacesLocation.city#phrase.navigation = {city} of {this}
+com.ibm.ra.remy.common.impl.GooglePlacesLocation.country#phrase.action = set the country of {this} to {country}
+com.ibm.ra.remy.common.impl.GooglePlacesLocation.country#phrase.navigation = {country} of {this}
+com.ibm.ra.remy.common.impl.GooglePlacesLocation.location#phrase.action = set the location of {this} to {location}
+com.ibm.ra.remy.common.impl.GooglePlacesLocation.location#phrase.navigation = {location} of {this}
+com.ibm.ra.remy.common.impl.GooglePlacesLocation.toString()#phrase.navigation = {this}.toString()
+
+# com.ibm.ra.remy.common.impl.LatLong
+com.ibm.ra.remy.common.impl.LatLong#concept.label = lat long
+com.ibm.ra.remy.common.impl.LatLong.distanceTo(com.ibm.ra.remy.common.impl.LatLong)#phrase.navigation = {this}.distanceTo({0})
+com.ibm.ra.remy.common.impl.LatLong.lat#phrase.action = set the lat of {this} to {lat}
+com.ibm.ra.remy.common.impl.LatLong.lat#phrase.navigation = {lat} of {this}
+com.ibm.ra.remy.common.impl.LatLong.lng#phrase.action = set the lng of {this} to {lng}
+com.ibm.ra.remy.common.impl.LatLong.lng#phrase.navigation = {lng} of {this}
+com.ibm.ra.remy.common.impl.LatLong.toString()#phrase.navigation = {this}.toString()
+
+# com.ibm.ra.remy.common.impl.RemyEventDateImpl
+com.ibm.ra.remy.common.impl.RemyEventDateImpl#concept.label = remy event date impl
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.addEvent(com.ibm.ra.remy.common.model.RemyEvent)#phrase.action = add {0} to the events of {this}
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.condition#phrase.action = set the condition of {this} to {condition}
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.condition#phrase.navigation = {condition} of {this}
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.date#phrase.navigation = {date} of {this}
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.events#phrase.navigation = {event} of {this}
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.highTemperature#phrase.navigation = {high temperature} of {this}
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.lowTemperature#phrase.navigation = {low temperature} of {this}
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.removeEvent(com.ibm.ra.remy.common.model.RemyEvent)#phrase.action = remove {0} from the events of {this}
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.setTemperature(java.lang.String,java.lang.String)#phrase.action = {this}.setTemperature({0}, {1})
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.sortEvents()#phrase.action = sortEvents {this}
+com.ibm.ra.remy.common.impl.RemyEventDateImpl.toString()#phrase.navigation = {this}.toString()
+
+# com.ibm.ra.remy.common.impl.RemyEventImpl
+com.ibm.ra.remy.common.impl.RemyEventImpl#concept.label = remy event impl
+com.ibm.ra.remy.common.impl.RemyEventImpl.affectedByWeather#phrase.action = make it {affected by weather} that {this} is affected by weather
+com.ibm.ra.remy.common.impl.RemyEventImpl.affectedByWeather#phrase.navigation = {this} is affected by weather
+com.ibm.ra.remy.common.impl.RemyEventImpl.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyEventImpl.itineraryId#phrase.navigation = {itinerary id} of {this}
+com.ibm.ra.remy.common.impl.RemyEventImpl.outdoor#phrase.navigation = {this} is outdoor
+com.ibm.ra.remy.common.impl.RemyEventImpl.subtype#phrase.navigation = {subtype} of {this}
+com.ibm.ra.remy.common.impl.RemyEventImpl.time#phrase.navigation = {time} of {this}
+com.ibm.ra.remy.common.impl.RemyEventImpl.toString()#phrase.navigation = {this}.toString()
+
+# com.ibm.ra.remy.common.impl.RemyFlightEvent
+com.ibm.ra.remy.common.impl.RemyFlightEvent#concept.label = remy flight event
+com.ibm.ra.remy.common.impl.RemyFlightEvent.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyFlightEvent.itineraryId#phrase.navigation = {itinerary id} of {this}
+com.ibm.ra.remy.common.impl.RemyFlightEvent.outdoor#phrase.navigation = {this} is outdoor
+com.ibm.ra.remy.common.impl.RemyFlightEvent.subtype#phrase.navigation = {subtype} of {this}
+com.ibm.ra.remy.common.impl.RemyFlightEvent.time#phrase.navigation = {time} of {this}
+com.ibm.ra.remy.common.impl.RemyFlightEvent.toString()#phrase.navigation = {this}.toString()
+
+# com.ibm.ra.remy.common.impl.RemyItineraryImpl
+com.ibm.ra.remy.common.impl.RemyItineraryImpl#concept.label = remy itinerary impl
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.addDate(com.ibm.ra.remy.common.model.RemyEventDate)#phrase.action = add {0} to the dates of {this}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.allDates#phrase.navigation = {all date} of {this}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.endTime#phrase.navigation = {end time} of {this}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.getDate(long)#phrase.navigation = {this}.getDate({0})
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.id#phrase.navigation = {id} of {this}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.initialLocation#phrase.navigation = {initial location} of {this}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.sortAllEvents()#phrase.action = sortAllEvents {this}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.startTime#phrase.navigation = {start time} of {this}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.title#phrase.navigation = {title} of {this}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.user#phrase.navigation = {user} of {this}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.version#phrase.action = set the version of {this} to {version}
+com.ibm.ra.remy.common.impl.RemyItineraryImpl.version#phrase.navigation = {version} of {this}
+
+# com.ibm.ra.remy.common.impl.RemyLodgingEvent
+com.ibm.ra.remy.common.impl.RemyLodgingEvent#concept.label = remy lodging event
+com.ibm.ra.remy.common.impl.RemyLodgingEvent._id#phrase.action = set the id of {this} to {id}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent._id#phrase.navigation = {id} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.checkin#phrase.action = set the checkin of {this} to {checkin}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.checkin#phrase.navigation = {checkin} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.checkout#phrase.action = set the checkout of {this} to {checkout}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.checkout#phrase.navigation = {checkout} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.confirmation#phrase.action = set the confirmation of {this} to {confirmation}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.confirmation#phrase.navigation = {confirmation} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.description#phrase.action = set the description of {this} to {description}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.description#phrase.navigation = {description} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.displayType#phrase.action = set the display type of {this} to {display type}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.displayType#phrase.navigation = {display type} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.end_time#phrase.action = set the end time of {this} to {end time}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.end_time#phrase.navigation = {end time} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.geometry#phrase.action = set the geometry of {this} to {geometry}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.geometry#phrase.navigation = {geometry} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.hasPromotionalDiscount#phrase.action = make it {has promotional discount} that {this} is has promotional discount
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.hasPromotionalDiscount#phrase.navigation = {this} is has promotional discount
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.imageUrl#phrase.action = set the image url of {this} to {image url}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.imageUrl#phrase.navigation = {image url} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.isLoyaltyMember#phrase.action = make it {loyalty member} that {this} is loyalty member
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.isLoyaltyMember#phrase.navigation = {this} is loyalty member
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.isPreferred#phrase.action = make it {preferred} that {this} is preferred
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.isPreferred#phrase.navigation = {this} is preferred
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.itineraryId#phrase.action = set the itinerary id of {this} to {itinerary id}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.itineraryId#phrase.navigation = {itinerary id} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.location#phrase.action = set the location of {this} to {location}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.location#phrase.navigation = {location} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.loyaltyDiscount#phrase.action = set the loyalty discount of {this} to {loyalty discount}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.loyaltyDiscount#phrase.navigation = {loyalty discount} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.loyaltyPoints#phrase.action = set the loyalty points of {this} to {loyalty points}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.loyaltyPoints#phrase.navigation = {loyalty points} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.loyaltyProgramName#phrase.action = set the loyalty program name of {this} to {loyalty program name}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.loyaltyProgramName#phrase.navigation = {loyalty program name} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.meetingName#phrase.action = set the meeting name of {this} to {meeting name}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.meetingName#phrase.navigation = {meeting name} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.name#phrase.action = set the name of {this} to {name}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.name#phrase.navigation = {name} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.original_price#phrase.action = set the original price of {this} to {original price}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.original_price#phrase.navigation = {original price} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.outdoor#phrase.navigation = {this} is outdoor
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.price#phrase.action = set the price of {this} to {price}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.price#phrase.navigation = {price} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.promotionalDiscount#phrase.action = set the promotional discount of {this} to {promotional discount}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.promotionalDiscount#phrase.navigation = {promotional discount} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.rating#phrase.action = set the rating of {this} to {rating}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.rating#phrase.navigation = {rating} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.rationale#phrase.action = set the rationale of {this} to {rationale}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.rationale#phrase.navigation = {rationale} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.reviewHighlight#phrase.action = set the review highlight of {this} to {review highlight}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.reviewHighlight#phrase.navigation = {review highlight} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.reviewTime#phrase.action = set the review time of {this} to {review time}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.reviewTime#phrase.navigation = {review time} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.reviewer#phrase.action = set the reviewer of {this} to {reviewer}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.reviewer#phrase.navigation = {reviewer} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.room#phrase.action = set the room of {this} to {room}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.room#phrase.navigation = {room} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.start_time#phrase.action = set the start time of {this} to {start time}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.start_time#phrase.navigation = {start time} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.subType#phrase.action = set the sub type of {this} to {sub type}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.subType#phrase.navigation = {sub type} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.subtype#phrase.navigation = {subtype} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.time#phrase.navigation = {time} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.toString()#phrase.navigation = {this}.toString()
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.vicinity#phrase.action = set the vicinity of {this} to {vicinity}
+com.ibm.ra.remy.common.impl.RemyLodgingEvent.vicinity#phrase.navigation = {vicinity} of {this}
+
+# com.ibm.ra.remy.common.impl.RemyLodgingEventDiscount
+com.ibm.ra.remy.common.impl.RemyLodgingEventDiscount#concept.label = remy lodging event discount
+com.ibm.ra.remy.common.impl.RemyLodgingEventDiscount.discountedPrice#phrase.action = set the discounted price of {this} to {discounted price}
+com.ibm.ra.remy.common.impl.RemyLodgingEventDiscount.discountedPrice#phrase.navigation = {discounted price} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEventDiscount.message#phrase.action = set the message of {this} to {message}
+com.ibm.ra.remy.common.impl.RemyLodgingEventDiscount.message#phrase.navigation = {message} of {this}
+com.ibm.ra.remy.common.impl.RemyLodgingEventDiscount.previousPrice#phrase.action = set the previous price of {this} to {previous price}
+com.ibm.ra.remy.common.impl.RemyLodgingEventDiscount.previousPrice#phrase.navigation = {previous price} of {this}
+
+# com.ibm.ra.remy.common.impl.RemyMeetingEvent
+com.ibm.ra.remy.common.impl.RemyMeetingEvent#concept.label = remy meeting event
+com.ibm.ra.remy.common.impl.RemyMeetingEvent.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyMeetingEvent.geometry#phrase.navigation = {geometry} of {this}
+com.ibm.ra.remy.common.impl.RemyMeetingEvent.itineraryId#phrase.navigation = {itinerary id} of {this}
+com.ibm.ra.remy.common.impl.RemyMeetingEvent.outdoor#phrase.navigation = {this} is outdoor
+com.ibm.ra.remy.common.impl.RemyMeetingEvent.subtype#phrase.navigation = {subtype} of {this}
+com.ibm.ra.remy.common.impl.RemyMeetingEvent.time#phrase.navigation = {time} of {this}
+com.ibm.ra.remy.common.impl.RemyMeetingEvent.toString()#phrase.navigation = {this}.toString()
+
+# com.ibm.ra.remy.common.impl.RemyRecommendationsEvent
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent#concept.label = remy recommendations event
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.addEvent(com.ibm.ra.remy.common.model.RemyEvent)#phrase.action = add {0} to the events of {this}
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.alert#phrase.navigation = {this} is alert
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.associatedEventId#phrase.action = set the associated event id of {this} to {associated event id}
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.associatedEventId#phrase.navigation = {associated event id} of {this}
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.message#phrase.navigation = {message} of {this}
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.outdoor#phrase.navigation = {this} is outdoor
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.recType#phrase.navigation = {rec type} of {this}
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.recommendationList#phrase.action = set the recommendations of {this} to {recommendation}
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.recommendationList#phrase.navigation = {recommendation} of {this}
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.subtype#phrase.navigation = {subtype} of {this}
+com.ibm.ra.remy.common.impl.RemyRecommendationsEvent.toString()#phrase.navigation = {this}.toString()
+
+# com.ibm.ra.remy.common.impl.RemyRecsImpl
+com.ibm.ra.remy.common.impl.RemyRecsImpl#concept.label = remy recs impl
+com.ibm.ra.remy.common.impl.RemyRecsImpl.addRec(com.ibm.ra.remy.common.model.RemyEvent)#phrase.action = add {0} to the recs of {this}
+com.ibm.ra.remy.common.impl.RemyRecsImpl.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyRecsImpl.lodgingRecs#phrase.action = set the lodging recs of {this} to {lodging recs}
+com.ibm.ra.remy.common.impl.RemyRecsImpl.lodgingRecs#phrase.navigation = {lodging recs} of {this}
+com.ibm.ra.remy.common.impl.RemyRecsImpl.restaurantRecs#phrase.action = set the restaurant recs of {this} to {restaurant recs}
+com.ibm.ra.remy.common.impl.RemyRecsImpl.restaurantRecs#phrase.navigation = {restaurant recs} of {this}
+com.ibm.ra.remy.common.impl.RemyRecsImpl.transitRecs#phrase.action = set the transit recs of {this} to {transit recs}
+com.ibm.ra.remy.common.impl.RemyRecsImpl.transitRecs#phrase.navigation = {transit recs} of {this}
+com.ibm.ra.remy.common.impl.RemyRecsImpl.user#phrase.navigation = {user} of {this}
+
+# com.ibm.ra.remy.common.impl.RemyRestaurantEvent
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent#concept.label = remy restaurant event
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent.geometry#phrase.navigation = {geometry} of {this}
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent.itineraryId#phrase.navigation = {itinerary id} of {this}
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent.name#phrase.navigation = {name} of {this}
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent.outdoor#phrase.navigation = {this} is outdoor
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent.recommendedReplacements#phrase.action = set the recommended replacements of {this} to {recommended replacements}
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent.recommendedReplacements#phrase.navigation = {recommended replacements} of {this}
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent.subtype#phrase.navigation = {subtype} of {this}
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent.time#phrase.navigation = {time} of {this}
+com.ibm.ra.remy.common.impl.RemyRestaurantEvent.toString()#phrase.navigation = {this}.toString()
+
+# com.ibm.ra.remy.common.impl.RemyTransitEvent
+com.ibm.ra.remy.common.impl.RemyTransitEvent#concept.label = remy transit event
+com.ibm.ra.remy.common.impl.RemyTransitEvent.costDouble#phrase.navigation = {cost double} of {this}
+com.ibm.ra.remy.common.impl.RemyTransitEvent.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyTransitEvent.ios_transit_name#phrase.navigation = {ios transit name} of {this}
+com.ibm.ra.remy.common.impl.RemyTransitEvent.numTransfers#phrase.navigation = {num transfers} of {this}
+com.ibm.ra.remy.common.impl.RemyTransitEvent.outdoor#phrase.navigation = {this} is outdoor
+com.ibm.ra.remy.common.impl.RemyTransitEvent.subtype#phrase.navigation = {subtype} of {this}
+com.ibm.ra.remy.common.impl.RemyTransitEvent.toString()#phrase.navigation = {this}.toString()
+com.ibm.ra.remy.common.impl.RemyTransitEvent.totalDuration#phrase.navigation = {total duration} of {this}
+com.ibm.ra.remy.common.impl.RemyTransitEvent.transitSteps#phrase.navigation = {transit step} of {this}
+com.ibm.ra.remy.common.impl.RemyTransitEvent.waitingTime#phrase.navigation = {waiting time} of {this}
+com.ibm.ra.remy.common.impl.RemyTransitEvent.walkingDistance#phrase.navigation = {walking distance} of {this}
+
+# com.ibm.ra.remy.common.impl.RemyTransitStep
+com.ibm.ra.remy.common.impl.RemyTransitStep#concept.label = remy transit step
+com.ibm.ra.remy.common.impl.RemyTransitStep.endTime#phrase.action = set the end time of {this} to {end time}
+com.ibm.ra.remy.common.impl.RemyTransitStep.endTime#phrase.navigation = {end time} of {this}
+com.ibm.ra.remy.common.impl.RemyTransitStep.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyTransitStep.startTime#phrase.action = set the start time of {this} to {start time}
+com.ibm.ra.remy.common.impl.RemyTransitStep.startTime#phrase.navigation = {start time} of {this}
+com.ibm.ra.remy.common.impl.RemyTransitStep.toString()#phrase.navigation = {this}.toString()
+
+# com.ibm.ra.remy.common.impl.RemyTravelDataImpl
+com.ibm.ra.remy.common.impl.RemyTravelDataImpl#concept.label = remy travel data impl
+com.ibm.ra.remy.common.impl.RemyTravelDataImpl.addItinerary(com.ibm.ra.remy.common.model.RemyItinerary)#phrase.action = add {0} to the itineraries of {this}
+com.ibm.ra.remy.common.impl.RemyTravelDataImpl.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyTravelDataImpl.itineraries#phrase.navigation = {itinerary} of {this}
+
+# com.ibm.ra.remy.common.impl.RemyWeatherImpl
+com.ibm.ra.remy.common.impl.RemyWeatherImpl#concept.label = remy weather impl
+
+# com.ibm.ra.remy.common.impl.RemyWeatherImpl.EnglishMetricObject
+com.ibm.ra.remy.common.impl.RemyWeatherImpl.EnglishMetricObject#concept.label = english metric object
+com.ibm.ra.remy.common.impl.RemyWeatherImpl.condition#phrase.navigation = {condition} of {this}
+com.ibm.ra.remy.common.impl.RemyWeatherImpl.date#phrase.action = set the date of {this} to {date}
+com.ibm.ra.remy.common.impl.RemyWeatherImpl.date#phrase.navigation = {date} of {this}
+com.ibm.ra.remy.common.impl.RemyWeatherImpl.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.impl.RemyWeatherImpl.getTemperature(boolean)#phrase.navigation = {this}.getTemperature({0})
+com.ibm.ra.remy.common.impl.RemyWeatherImpl.location#phrase.action = set the location of {this} to {location}
+com.ibm.ra.remy.common.impl.RemyWeatherImpl.location#phrase.navigation = {location} of {this}
+
+# com.ibm.ra.remy.common.impl.User
+com.ibm.ra.remy.common.impl.User#concept.label = user
+com.ibm.ra.remy.common.impl.User.company#phrase.action = set the company of {this} to {company}
+com.ibm.ra.remy.common.impl.User.company#phrase.navigation = {company} of {this}
+com.ibm.ra.remy.common.impl.User.firstName#phrase.action = set the first name of {this} to {first name}
+com.ibm.ra.remy.common.impl.User.firstName#phrase.navigation = {first name} of {this}
+com.ibm.ra.remy.common.impl.User.lastName#phrase.action = set the last name of {this} to {last name}
+com.ibm.ra.remy.common.impl.User.lastName#phrase.navigation = {last name} of {this}
+com.ibm.ra.remy.common.impl.User.locale#phrase.action = set the locale of {this} to {locale}
+com.ibm.ra.remy.common.impl.User.locale#phrase.navigation = {locale} of {this}
+com.ibm.ra.remy.common.impl.User.password#phrase.action = set the password of {this} to {password}
+com.ibm.ra.remy.common.impl.User.password#phrase.navigation = {password} of {this}
+com.ibm.ra.remy.common.impl.User.username#phrase.action = set the username of {this} to {username}
+com.ibm.ra.remy.common.impl.User.username#phrase.navigation = {username} of {this}
+
+# com.ibm.ra.remy.common.model.RemyEvent
+com.ibm.ra.remy.common.model.RemyEvent#concept.label = remy event
+com.ibm.ra.remy.common.model.RemyEvent.EVENT#phrase.navigation = the EVENT
+com.ibm.ra.remy.common.model.RemyEvent.FLIGHT#phrase.navigation = the FLIGHT
+com.ibm.ra.remy.common.model.RemyEvent.HOTEL_CHECKIN#phrase.navigation = the HOTEL CHECKIN
+com.ibm.ra.remy.common.model.RemyEvent.HOTEL_CHECKOUT#phrase.navigation = the HOTEL CHECKOUT
+com.ibm.ra.remy.common.model.RemyEvent.HOTEL_STAY#phrase.navigation = the HOTEL STAY
+com.ibm.ra.remy.common.model.RemyEvent.ITINERARY#phrase.navigation = the ITINERARY
+com.ibm.ra.remy.common.model.RemyEvent.LODGING#phrase.navigation = the LODGING
+com.ibm.ra.remy.common.model.RemyEvent.MEETING#phrase.navigation = the MEETING
+com.ibm.ra.remy.common.model.RemyEvent.RECOMMENDATIONS#phrase.navigation = the RECOMMENDATIONS
+com.ibm.ra.remy.common.model.RemyEvent.RECOMMENDATION_TYPE#phrase.navigation = the RECOMMENDATION TYPE
+com.ibm.ra.remy.common.model.RemyEvent.RECTYPE_KEY#phrase.navigation = the RECTYPE KEY
+com.ibm.ra.remy.common.model.RemyEvent.RESTAURANT#phrase.navigation = the RESTAURANT
+com.ibm.ra.remy.common.model.RemyEvent.SUBTYPE_KEY#phrase.navigation = the SUBTYPE KEY
+com.ibm.ra.remy.common.model.RemyEvent.TRANSIT#phrase.navigation = the TRANSIT
+com.ibm.ra.remy.common.model.RemyEvent.TYPE_KEY#phrase.navigation = the TYPE KEY
+com.ibm.ra.remy.common.model.RemyEvent.affectedByWeather#phrase.action = make it {affected by weather} that {this} is affected by weather
+com.ibm.ra.remy.common.model.RemyEvent.affectedByWeather#phrase.navigation = {this} is affected by weather
+com.ibm.ra.remy.common.model.RemyEvent.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.model.RemyEvent.id#phrase.navigation = {id} of {this}
+com.ibm.ra.remy.common.model.RemyEvent.itineraryId#phrase.navigation = {itinerary id} of {this}
+com.ibm.ra.remy.common.model.RemyEvent.outdoor#phrase.navigation = {this} is outdoor
+com.ibm.ra.remy.common.model.RemyEvent.subtype#phrase.navigation = {subtype} of {this}
+com.ibm.ra.remy.common.model.RemyEvent.time#phrase.navigation = {time} of {this}
+com.ibm.ra.remy.common.model.RemyEvent.type#phrase.navigation = {type} of {this}
+
+# com.ibm.ra.remy.common.model.RemyEventDate
+com.ibm.ra.remy.common.model.RemyEventDate#concept.label = remy event date
+com.ibm.ra.remy.common.model.RemyEventDate.addEvent(com.ibm.ra.remy.common.model.RemyEvent)#phrase.action = add {0} to the events of {this}
+com.ibm.ra.remy.common.model.RemyEventDate.condition#phrase.action = set the condition of {this} to {condition}
+com.ibm.ra.remy.common.model.RemyEventDate.condition#phrase.navigation = {condition} of {this}
+com.ibm.ra.remy.common.model.RemyEventDate.date#phrase.navigation = {date} of {this}
+com.ibm.ra.remy.common.model.RemyEventDate.events#phrase.navigation = {event} of {this}
+com.ibm.ra.remy.common.model.RemyEventDate.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.model.RemyEventDate.highTemperature#phrase.navigation = {high temperature} of {this}
+com.ibm.ra.remy.common.model.RemyEventDate.lowTemperature#phrase.navigation = {low temperature} of {this}
+com.ibm.ra.remy.common.model.RemyEventDate.removeEvent(com.ibm.ra.remy.common.model.RemyEvent)#phrase.action = remove {0} from the events of {this}
+com.ibm.ra.remy.common.model.RemyEventDate.setTemperature(java.lang.String,java.lang.String)#phrase.action = {this}.setTemperature({0}, {1})
+com.ibm.ra.remy.common.model.RemyEventDate.sortEvents()#phrase.action = sortEvents {this}
+
+# com.ibm.ra.remy.common.model.RemyItinerary
+com.ibm.ra.remy.common.model.RemyItinerary#concept.label = remy itinerary
+com.ibm.ra.remy.common.model.RemyItinerary.addDate(com.ibm.ra.remy.common.model.RemyEventDate)#phrase.action = add {0} to the dates of {this}
+com.ibm.ra.remy.common.model.RemyItinerary.allDates#phrase.navigation = {all date} of {this}
+com.ibm.ra.remy.common.model.RemyItinerary.endTime#phrase.navigation = {end time} of {this}
+com.ibm.ra.remy.common.model.RemyItinerary.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.model.RemyItinerary.getDate(long)#phrase.navigation = {this}.getDate({0})
+com.ibm.ra.remy.common.model.RemyItinerary.id#phrase.navigation = {id} of {this}
+com.ibm.ra.remy.common.model.RemyItinerary.initialLocation#phrase.navigation = {initial location} of {this}
+com.ibm.ra.remy.common.model.RemyItinerary.sortAllEvents()#phrase.action = sortAllEvents {this}
+com.ibm.ra.remy.common.model.RemyItinerary.startTime#phrase.navigation = {start time} of {this}
+com.ibm.ra.remy.common.model.RemyItinerary.title#phrase.navigation = {title} of {this}
+com.ibm.ra.remy.common.model.RemyItinerary.user#phrase.navigation = {user} of {this}
+com.ibm.ra.remy.common.model.RemyItinerary.version#phrase.action = set the version of {this} to {version}
+com.ibm.ra.remy.common.model.RemyItinerary.version#phrase.navigation = {version} of {this}
+
+# com.ibm.ra.remy.common.model.RemyLocation
+com.ibm.ra.remy.common.model.RemyLocation#concept.label = remy location
+com.ibm.ra.remy.common.model.RemyLocation.city#phrase.action = set the city of {this} to {city}
+com.ibm.ra.remy.common.model.RemyLocation.city#phrase.navigation = {city} of {this}
+com.ibm.ra.remy.common.model.RemyLocation.country#phrase.action = set the country of {this} to {country}
+com.ibm.ra.remy.common.model.RemyLocation.country#phrase.navigation = {country} of {this}
+
+# com.ibm.ra.remy.common.model.RemyRecs
+com.ibm.ra.remy.common.model.RemyRecs#concept.label = remy recs
+com.ibm.ra.remy.common.model.RemyRecs.addRec(com.ibm.ra.remy.common.model.RemyEvent)#phrase.action = add {0} to the recs of {this}
+com.ibm.ra.remy.common.model.RemyRecs.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.model.RemyRecs.lodgingRecs#phrase.action = set the lodging recs of {this} to {lodging recs}
+com.ibm.ra.remy.common.model.RemyRecs.lodgingRecs#phrase.navigation = {lodging recs} of {this}
+com.ibm.ra.remy.common.model.RemyRecs.restaurantRecs#phrase.action = set the restaurant recs of {this} to {restaurant recs}
+com.ibm.ra.remy.common.model.RemyRecs.restaurantRecs#phrase.navigation = {restaurant recs} of {this}
+com.ibm.ra.remy.common.model.RemyRecs.transitRecs#phrase.action = set the transit recs of {this} to {transit recs}
+com.ibm.ra.remy.common.model.RemyRecs.transitRecs#phrase.navigation = {transit recs} of {this}
+com.ibm.ra.remy.common.model.RemyRecs.user#phrase.navigation = {user} of {this}
+
+# com.ibm.ra.remy.common.model.RemyTravelData
+com.ibm.ra.remy.common.model.RemyTravelData#concept.label = remy travel data
+com.ibm.ra.remy.common.model.RemyTravelData.addItinerary(com.ibm.ra.remy.common.model.RemyItinerary)#phrase.action = add {0} to the itineraries of {this}
+com.ibm.ra.remy.common.model.RemyTravelData.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.model.RemyTravelData.itineraries#phrase.navigation = {itinerary} of {this}
+
+# com.ibm.ra.remy.common.model.RemyWeather
+com.ibm.ra.remy.common.model.RemyWeather#concept.label = remy weather
+com.ibm.ra.remy.common.model.RemyWeather.condition#phrase.navigation = {condition} of {this}
+com.ibm.ra.remy.common.model.RemyWeather.date#phrase.navigation = {date} of {this}
+com.ibm.ra.remy.common.model.RemyWeather.fixTime()#phrase.action = fixTime {this}
+com.ibm.ra.remy.common.model.RemyWeather.getTemperature(boolean)#phrase.navigation = {this}.getTemperature({0})
+com.ibm.ra.remy.common.model.RemyWeather.location#phrase.action = set the location of {this} to {location}
+com.ibm.ra.remy.common.model.RemyWeather.location#phrase.navigation = {location} of {this}
+
+# com.ibm.ra.remy.common.utils.DateUtils
+com.ibm.ra.remy.common.utils.DateUtils#concept.label = date utils
+com.ibm.ra.remy.common.utils.DateUtils.addHours(java.util.Date,int)#phrase.navigation = date utils.addHours({0}, {1})
+com.ibm.ra.remy.common.utils.DateUtils.generalizeTime(java.util.Date)#phrase.navigation = date utils.generalizeTime({0})

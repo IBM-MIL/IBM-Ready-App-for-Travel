@@ -1,0 +1,1 @@
+../../../../IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Frameworks/IBMMobileFirstPlatformFoundation.framework/Headers/WLDeviceAuthManager.h

@@ -1,0 +1,17 @@
+package remy$45$itineraries {
+   rule applyPromotionalDiscount {
+      property ilog.rules.business_name = "applyPromotionalDiscount";
+      property ilog.rules.package_name = "remy-itineraries";
+      property status = "new";
+      when {
+         com.ibm.ra.remy.common.impl.RemyLodgingEvent() from lodgingEvent;
+         evaluate (lodgingEvent.hasPromotionalDiscount);
+      } then {
+         lodgingEvent.promotionalDiscount.message = "15% off";
+         lodgingEvent.promotionalDiscount.previousPrice = lodgingEvent.price;
+         lodgingEvent.promotionalDiscount.discountedPrice = (float)(0.85d * (double) lodgingEvent.price );
+         lodgingEvent.price = (float)(0.85d * (double) lodgingEvent.price );
+      }
+   }
+}
+

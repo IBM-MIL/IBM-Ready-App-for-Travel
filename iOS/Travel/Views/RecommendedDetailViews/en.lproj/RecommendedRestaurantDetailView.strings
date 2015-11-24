@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Visit website"; ObjectID = "1jt-j1-3fk"; */
+"1jt-j1-3fk.normalTitle" = "Visit website";
+
+/* Class = "UILabel"; text = "   Preferred"; ObjectID = "6dL-ew-1eY"; */
+"6dL-ew-1eY.text" = "   Preferred";
+
+/* Class = "UILabel"; text = "€€€"; ObjectID = "KJw-Ub-XNf"; */
+"KJw-Ub-XNf.text" = "€€€";
+
+/* Class = "UILabel"; text = "Price Range"; ObjectID = "Lq7-Yg-piS"; */
+"Lq7-Yg-piS.text" = "Price Range";
+
+/* Class = "UILabel"; text = "“Very Friendly, Good Food!” Jan Knaup 4 weeks ago\n\n"; ObjectID = "N3l-43-cLC"; */
+"N3l-43-cLC.text" = "“Very Friendly, Good Food!” Jan Knaup 4 weeks ago\n\n";
+
+/* Class = "UILabel"; text = "Review Highlight"; ObjectID = "UT0-56-iuH"; */
+"UT0-56-iuH.text" = "Review Highlight";
+
+/* Class = "UILabel"; text = "Waldstraße 55\n10551 Berlin"; ObjectID = "VTB-wd-F76"; */
+"VTB-wd-F76.text" = "Waldstraße 55\n10551 Berlin";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "gfP-1T-EBo"; */
+"gfP-1T-EBo.text" = "Location";
+
+/* Class = "UILabel"; text = "German Restaurant"; ObjectID = "iYB-z0-Z6k"; */
+"iYB-z0-Z6k.text" = "German Restaurant";
+
+/* Class = "UILabel"; text = "Ristorante La Tettoia"; ObjectID = "u3d-mu-uwF"; */
+"u3d-mu-uwF.text" = "Ristorante La Tettoia";
+
+/* Class = "UILabel"; text = "Reviews from Google"; ObjectID = "vHA-aH-XOD"; */
+"vHA-aH-XOD.text" = "Reviews from Google";

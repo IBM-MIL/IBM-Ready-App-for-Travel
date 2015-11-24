@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1CBF3E48-CC9F-41A4-90F7-97368CEB5263</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0FB5379D58D3BC54032EAF8BB747538520D34527</key>
+		<string>https://hub.jazz.net/git/milbuild/Ready.App.7.Remy</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/Travel.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0FB5379D58D3BC54032EAF8BB747538520D34527</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://hub.jazz.net/git/milbuild/Ready.App.7.Remy</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0FB5379D58D3BC54032EAF8BB747538520D34527</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0FB5379D58D3BC54032EAF8BB747538520D34527</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RA7-Travel</string>
+		</dict>
+	</array>
+</dict>
+</plist>

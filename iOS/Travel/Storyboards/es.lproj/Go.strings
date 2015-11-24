@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "The seven-day-pass is valid seven consecutive days from\nits start date. Its validation ends on the seventh day at\nmidnight. The pass costs €29,50."; ObjectID = "2J7-4H-GBh"; */
+"2J7-4H-GBh.text" = "The seven-day-pass is valid seven consecutive days from\nits start date. Its validation ends on the seventh day at\nmidnight. The pass costs €29,50.-ES";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "CbO-Rp-TeO"; */
+"CbO-Rp-TeO.text" = "Details-ES";
+
+/* Class = "UILabel"; text = "Lara Hoffman"; ObjectID = "Cir-yw-IqV"; */
+"Cir-yw-IqV.text" = "Lara Hoffman-ES";
+
+/* Class = "UILabel"; text = "Passenger Information"; ObjectID = "DDu-Xi-jsi"; */
+"DDu-Xi-jsi.text" = "Passenger Information-ES";
+
+/* Class = "UILabel"; text = "€29,50"; ObjectID = "ElM-rD-T9x"; */
+"ElM-rD-T9x.text" = "€29,50-ES";
+
+/* Class = "UIButton"; normalTitle = "   Back"; ObjectID = "N9X-K3-MLn"; */
+"N9X-K3-MLn.normalTitle" = "   Back-ES";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "NAX-Py-334"; */
+"NAX-Py-334.normalTitle" = "Done-ES";
+
+/* Class = "UILabel"; text = "Acme Card ending in 1234 "; ObjectID = "ZCY-BH-pK9"; */
+"ZCY-BH-pK9.text" = "Acme Card ending in 1234 -ES";
+
+/* Class = "UILabel"; text = "You can access your Seven Day Pass in your Trips page."; ObjectID = "a7E-R4-MMQ"; */
+"a7E-R4-MMQ.text" = "You can access your Seven Day Pass in your Trips page.-ES";
+
+/* Class = "UIButton"; normalTitle = "   Back"; ObjectID = "as3-cD-d5Y"; */
+"as3-cD-d5Y.normalTitle" = "   Back-ES";
+
+/* Class = "UILabel"; text = "Confirmation"; ObjectID = "dPK-9c-ADE"; */
+"dPK-9c-ADE.text" = "Confirmation-ES";
+
+/* Class = "UIButton"; normalTitle = "P U R C H A S E   1   P A S S   ( € 2 9 , 5 0 )"; ObjectID = "efr-wb-312"; */
+"efr-wb-312.normalTitle" = "P U R C H A S E   1   P A S S   ( € 2 9 , 5 0 )-ES";
+
+/* Class = "UILabel"; text = "Preferred"; ObjectID = "eqS-cS-yIo"; */
+"eqS-cS-yIo.text" = "Preferred-ES";
+
+/* Class = "UILabel"; text = "21 Sep - 28 Sep, 2015"; ObjectID = "lIg-gD-dJT"; */
+"lIg-gD-dJT.text" = "21 Sep - 28 Sep, 2015-ES";
+
+/* Class = "UILabel"; text = "First Class"; ObjectID = "mdy-rK-3KB"; */
+"mdy-rK-3KB.text" = "First Class-ES";
+
+/* Class = "UITabBarItem"; title = "Go"; ObjectID = "mqA-Zf-da6"; */
+"mqA-Zf-da6.title" = "Go-ES";
+
+/* Class = "UILabel"; text = "Valid Through"; ObjectID = "qJv-7Z-QQm"; */
+"qJv-7Z-QQm.text" = "Valid Through-ES";
+
+/* Class = "UILabel"; text = "Buy Passes"; ObjectID = "sgn-tW-woq"; */
+"sgn-tW-woq.text" = "Buy Passes-ES";
+
+/* Class = "UILabel"; text = "Buy Passes"; ObjectID = "tQH-dC-L7M"; */
+"tQH-dC-L7M.text" = "Buy Passes-ES";
+
+/* Class = "UILabel"; text = "Seven Day Pass"; ObjectID = "vkn-oZ-Fib"; */
+"vkn-oZ-Fib.text" = "Seven Day Pass-ES";
+
+/* Class = "UILabel"; text = "Payment information"; ObjectID = "yst-aW-IBp"; */
+"yst-aW-IBp.text" = "Payment information-ES";

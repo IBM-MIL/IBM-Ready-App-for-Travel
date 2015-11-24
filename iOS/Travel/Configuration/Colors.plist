@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>travelNotificationsVCNavigationBarBottomLineColor</key>
+	<string>C7C7C7</string>
+	<key>travelLightMainFontColor</key>
+	<string>777677</string>
+	<key>travelSemiDarkMainFontColor</key>
+	<string>777677</string>
+	<key>travelDarkMainFontColor</key>
+	<string>323232</string>
+	<key>travelBannerSuccessBackgroundColor</key>
+	<string>E9E9E9</string>
+	<key>travelBannerSuccessTextColor</key>
+	<string>FF4647</string>
+	<key>travelBannerFailureBackgroundColor</key>
+	<string>FF4647</string>
+	<key>travelBannerFailureTextColor</key>
+	<string>FFFFFF</string>
+	<key>travelRestaurantIconColor</key>
+	<string>8CD211</string>
+	<key>travelTransitIconColor</key>
+	<string>FF7832</string>
+	<key>travelMeetingIconColor</key>
+	<string>5AAAFA</string>
+	<key>travelHotelIconColor</key>
+	<string>41D6C3</string>
+	<key>travelFlightIconColor</key>
+	<string>EFC100</string>
+	<key>travelItineraryCellBackgroundColor</key>
+	<string>F5F5F5</string>
+	<key>travelItineraryCardBackgroundColor</key>
+	<string>FFFFFF</string>
+	<key>travelNavigationBarColor</key>
+	<string>C93945</string>
+	<key>travelTabBarColor</key>
+	<string>272727</string>
+	<key>travelAlertBodyColor</key>
+	<string>F4F3F3</string>
+	<key>travelAlertReviewButtonColorNormal</key>
+	<string>FF4647</string>
+	<key>travelAlertDismissButtonColorNormal</key>
+	<string>E9E9E9</string>
+	<key>travelMainColor</key>
+	<string>F84A53</string>
+	<key>travelEventIconColor</key>
+	<string>AE72E5</string>
+	<key>travelItineraryRecommendationCardBackgroundColor</key>
+	<string>ECECEC</string>
+</dict>
+</plist>

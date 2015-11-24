@@ -1,0 +1,22 @@
+###############################################################################
+#
+# IBM MobileFirst Platform Cloudant Data Layer Local Edition
+#
+###############################################################################
+# This document contains instructions for obtaining and using the 
+# Cloudant Data Layer SDKs for iOS.
+#
+# You can obtain the iOS Framework files with CocoaPods: http://cocoapods.org/.
+# Check CocoaPods for version updates.
+#
+# Copy this file into the root of your XCode project.
+# Rename the file to “Podfile”.  Run the following command from the terminal:
+# `pod install` 
+# Cocoa Pods then adds the Frameworks and associated dependencies to your project.
+
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+pod 'IMFDataLocal', '1.1.0'
+pod 'CloudantToolkitLocal', '1.1.0'

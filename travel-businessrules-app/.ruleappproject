@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RuleApp>
+   <ruleset>
+      <kind>ruleproject</kind>
+      <display-name>travel-businessrules</display-name>
+      <name>travelbusinessrules</name>
+      <version>1.0</version>
+      <fullpath>runtime/travelbusinessrules10.jar</fullpath>
+      <location>travel-businessrules</location>
+      <export>true</export>
+   </ruleset>
+</RuleApp>
+

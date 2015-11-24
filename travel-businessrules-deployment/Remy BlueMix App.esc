@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+  <name value="Remy BlueMix App">  </name>
+  <url value="https://brsv2-374fbabd.ng.bluemix.net/res">  </url>
+  <appliurl value="">  </appliurl>
+  <uuid value="_Zj5B8GDIEeWR9byx0xoG5A">  </uuid>
+  <application-server>true</application-server>
+  <res-console-deployed>true</res-console-deployed>
+  <type>IBM WebSphere AS 8.5</type>
+  <install-directory></install-directory>
+  <deployment-directory></deployment-directory>
+  <deployment>
+    <mode>CONSOLE</mode>
+  </deployment>
+</server>

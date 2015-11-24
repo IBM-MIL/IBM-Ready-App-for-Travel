@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotificationsTableViewCell" rowHeight="160" id="KGk-i7-Jjw" customClass="NotificationsTableViewCell" customModule="Travel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="373" height="159"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inclement weather may affect your Team Regroup with Team B at Pfau Cafe on Wed, 23 Sept." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fq9-Uq-K9v">
+                        <rect key="frame" x="78" y="31" width="233" height="98"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="98" id="Qy7-cW-o8F"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Right_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="IdN-zg-nlT">
+                        <rect key="frame" x="340" y="71" width="16" height="18"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="dhM-Ug-XMf"/>
+                            <constraint firstAttribute="width" constant="16" id="jLF-bQ-2nZ"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EjG-uw-rdx">
+                        <rect key="frame" x="24" y="65" width="30" height="30"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="PqN-wa-MfI"/>
+                            <constraint firstAttribute="width" constant="30" id="rpr-hx-frE"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="IdN-zg-nlT" secondAttribute="trailing" constant="9" id="A0O-6s-U17"/>
+                    <constraint firstItem="IdN-zg-nlT" firstAttribute="top" secondItem="EjG-uw-rdx" secondAttribute="bottom" constant="-25" id="IjM-27-fhq"/>
+                    <constraint firstItem="EjG-uw-rdx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="LnN-ZS-gX3"/>
+                    <constraint firstItem="IdN-zg-nlT" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="OGy-1V-gVZ"/>
+                    <constraint firstItem="fq9-Uq-K9v" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PPy-jg-Hn9"/>
+                    <constraint firstItem="fq9-Uq-K9v" firstAttribute="leading" secondItem="EjG-uw-rdx" secondAttribute="trailing" constant="24" id="c62-Gp-6vT"/>
+                    <constraint firstItem="EjG-uw-rdx" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hW4-Dx-vKB"/>
+                    <constraint firstItem="IdN-zg-nlT" firstAttribute="leading" secondItem="fq9-Uq-K9v" secondAttribute="trailing" constant="29" id="r8F-ab-wlL"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="IjM-27-fhq"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="iconImageView" destination="EjG-uw-rdx" id="9S7-vf-nam"/>
+                <outlet property="notificationTextLabel" destination="fq9-Uq-K9v" id="ei8-cg-OD4"/>
+                <outlet property="rightArrowImageView" destination="IdN-zg-nlT" id="QPs-lJ-9ed"/>
+            </connections>
+            <point key="canvasLocation" x="458.5" y="442"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Right_arrow" width="10" height="13"/>
+    </resources>
+</document>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+        <mutableArray key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RailConfirmationView" customModule="Travel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="464"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qr_code" translatesAutoresizingMaskIntoConstraints="NO" id="ttd-Wk-ZHN">
+                    <rect key="frame" x="222" y="8" width="157" height="157"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="157" id="rt3-iD-OVU"/>
+                        <constraint firstAttribute="width" constant="157" id="xrI-15-mdF"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seven Day Pass" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtJ-Ml-RoG">
+                    <rect key="frame" x="28" y="159" width="268" height="45"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="268" id="CG8-jt-xK1"/>
+                        <constraint firstAttribute="height" constant="45" id="ilg-0o-eDG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="31"/>
+                    <color key="textColor" red="0.19607843459999999" green="0.19607843459999999" blue="0.19607843459999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valid Through" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJh-Zn-eA5">
+                    <rect key="frame" x="28" y="216" width="78" height="17"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="ES8-D7-USD"/>
+                        <constraint firstAttribute="width" constant="78" id="EUO-Ic-9Cs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="11"/>
+                    <color key="textColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21 Sep - 28 Sep, 2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmO-R4-jTl">
+                    <rect key="frame" x="28" y="234" width="147" height="22"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="UFI-Xi-crA"/>
+                        <constraint firstAttribute="width" constant="147" id="are-Ql-lCy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                    <color key="textColor" red="0.19607843459999999" green="0.19607843459999999" blue="0.19607843459999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Class" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LK1-hs-w8p">
+                    <rect key="frame" x="488" y="216" width="87" height="17"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="87" id="5SK-wY-iNJ"/>
+                        <constraint firstAttribute="height" constant="17" id="7t0-8H-jZA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="11"/>
+                    <color key="textColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€29,50" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKQ-OC-jGx">
+                    <rect key="frame" x="503" y="234" width="72" height="24"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="3A1-ml-X5q"/>
+                        <constraint firstAttribute="height" constant="24" id="hSU-vK-ZWq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                    <color key="textColor" red="0.19607843459999999" green="0.19607843459999999" blue="0.19607843459999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qii-Ez-873">
+                    <rect key="frame" x="28" y="320" width="65" height="17"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="N2X-ix-6eF"/>
+                        <constraint firstAttribute="height" constant="17" id="gbO-cQ-YZu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="11"/>
+                    <color key="textColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="pkN-J1-mVM">
+                    <rect key="frame" x="28" y="333" width="547" height="58"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="v6H-uu-8KB"/>
+                    </constraints>
+                    <string key="text">The seven-day-pass is valid seven consecutive days from
+its start date. Its validation ends on the seventh day at
+midnight. The pass costs €29,50.</string>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="11"/>
+                    <color key="textColor" red="0.19607843459999999" green="0.19607843459999999" blue="0.19607843459999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Passenger Information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIa-ba-saV">
+                    <rect key="frame" x="28" y="268" width="122" height="17"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="122" id="pgT-aM-fGf"/>
+                        <constraint firstAttribute="height" constant="17" id="u1x-ZH-bLv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="11"/>
+                    <color key="textColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lara Hoffman" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhY-ib-Z7X">
+                    <rect key="frame" x="28" y="286" width="147" height="22"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="147" id="MPK-qW-x7c"/>
+                        <constraint firstAttribute="height" constant="22" id="qph-LR-L9n"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                    <color key="textColor" red="0.19607843459999999" green="0.19607843459999999" blue="0.19607843459999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pass ID" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUU-73-fLi">
+                    <rect key="frame" x="488" y="268" width="87" height="17"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="87" id="2oe-Mz-FcF"/>
+                        <constraint firstAttribute="height" constant="17" id="Z6Y-s7-hhQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="11"/>
+                    <color key="textColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SWAMBPQ-0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xg5-Eg-YgS">
+                    <rect key="frame" x="477" y="286" width="98" height="22"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="SNc-Sf-9vq"/>
+                        <constraint firstAttribute="width" constant="98" id="gWK-3u-b2i"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                    <color key="textColor" red="0.19607843459999999" green="0.19607843459999999" blue="0.19607843459999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJW-CH-cSF">
+                    <rect key="frame" x="17" y="399" width="566" height="45"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auR-pk-3uj">
+                            <rect key="frame" x="0.0" y="0.0" width="572" height="45"/>
+                            <animations/>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallet" translatesAutoresizingMaskIntoConstraints="NO" id="eZu-df-uTj">
+                            <rect key="frame" x="18" y="7" width="31" height="31"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="31" id="SdV-Xc-Iht"/>
+                                <constraint firstAttribute="height" constant="31" id="riE-AX-XmP"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Right_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="2Rv-TQ-8eL">
+                            <rect key="frame" x="538" y="15" width="10" height="16"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="10" id="0A6-2Y-LhF"/>
+                                <constraint firstAttribute="height" constant="16" id="A5q-fx-erM"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add pass to Wallet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxM-AL-xPB">
+                            <rect key="frame" x="64" y="14" width="127" height="17"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="127" id="bRa-EP-VRW"/>
+                                <constraint firstAttribute="height" constant="17" id="icA-ab-d9r"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                            <color key="textColor" red="0.19607843459999999" green="0.19607843459999999" blue="0.19607843459999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="eZu-df-uTj" firstAttribute="leading" secondItem="OJW-CH-cSF" secondAttribute="leading" constant="18" id="3Lm-Ie-6kb"/>
+                        <constraint firstItem="2Rv-TQ-8eL" firstAttribute="top" secondItem="OJW-CH-cSF" secondAttribute="top" constant="15" id="DcB-FK-VJl"/>
+                        <constraint firstAttribute="trailing" secondItem="2Rv-TQ-8eL" secondAttribute="trailing" constant="18" id="Gj8-x1-zRE"/>
+                        <constraint firstItem="wxM-AL-xPB" firstAttribute="top" secondItem="OJW-CH-cSF" secondAttribute="top" constant="14" id="fxm-7i-ovT"/>
+                        <constraint firstAttribute="height" constant="45" id="rBi-lD-YaI"/>
+                        <constraint firstItem="wxM-AL-xPB" firstAttribute="leading" secondItem="eZu-df-uTj" secondAttribute="trailing" constant="15" id="uTD-2k-QAj"/>
+                        <constraint firstItem="eZu-df-uTj" firstAttribute="top" secondItem="OJW-CH-cSF" secondAttribute="top" constant="7" id="w1N-Vx-zmy"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="OJW-CH-cSF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="17" id="2MZ-RJ-kME"/>
+                <constraint firstItem="OJW-CH-cSF" firstAttribute="top" secondItem="pkN-J1-mVM" secondAttribute="bottom" constant="8" id="49S-F6-lHO"/>
+                <constraint firstItem="NUU-73-fLi" firstAttribute="top" secondItem="QKQ-OC-jGx" secondAttribute="bottom" constant="10" id="4Bq-kY-cIX"/>
+                <constraint firstItem="LK1-hs-w8p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="216" id="4nw-ZP-5V1"/>
+                <constraint firstItem="ttd-Wk-ZHN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4t0-FZ-tcQ"/>
+                <constraint firstItem="WtJ-Ml-RoG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="8dc-Lw-fmD"/>
+                <constraint firstAttribute="trailing" secondItem="QKQ-OC-jGx" secondAttribute="trailing" constant="25" id="98Q-SE-FVX"/>
+                <constraint firstItem="cIa-ba-saV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="Ax3-X1-bSH"/>
+                <constraint firstAttribute="trailing" secondItem="NUU-73-fLi" secondAttribute="trailing" constant="25" id="CSK-XC-lVE"/>
+                <constraint firstItem="nJh-Zn-eA5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="CTu-fQ-ZjZ"/>
+                <constraint firstItem="vmO-R4-jTl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="Cfj-kT-OL2"/>
+                <constraint firstItem="nJh-Zn-eA5" firstAttribute="top" secondItem="WtJ-Ml-RoG" secondAttribute="bottom" constant="12" id="Gal-WG-8Ba"/>
+                <constraint firstItem="pkN-J1-mVM" firstAttribute="top" secondItem="qii-Ez-873" secondAttribute="bottom" constant="-4" id="Kda-bz-zc3"/>
+                <constraint firstItem="ttd-Wk-ZHN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="RPq-1B-Jgb"/>
+                <constraint firstItem="QhY-ib-Z7X" firstAttribute="top" secondItem="cIa-ba-saV" secondAttribute="bottom" constant="1" id="WNO-lK-uug"/>
+                <constraint firstItem="QhY-ib-Z7X" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="Wqg-zo-tla"/>
+                <constraint firstItem="cIa-ba-saV" firstAttribute="top" secondItem="vmO-R4-jTl" secondAttribute="bottom" constant="12" id="XJU-RK-f9n"/>
+                <constraint firstItem="QKQ-OC-jGx" firstAttribute="top" secondItem="LK1-hs-w8p" secondAttribute="bottom" constant="1" id="ZI2-rr-X2P"/>
+                <constraint firstItem="pkN-J1-mVM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="daJ-PA-rJX"/>
+                <constraint firstAttribute="trailing" secondItem="LK1-hs-w8p" secondAttribute="trailing" constant="25" id="h6R-V6-kL9"/>
+                <constraint firstItem="qii-Ez-873" firstAttribute="top" secondItem="QhY-ib-Z7X" secondAttribute="bottom" constant="12" id="kea-qN-LLy"/>
+                <constraint firstItem="qii-Ez-873" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="lKh-vl-cfa"/>
+                <constraint firstAttribute="trailing" secondItem="OJW-CH-cSF" secondAttribute="trailing" constant="17" id="maH-P4-cPd"/>
+                <constraint firstAttribute="trailing" secondItem="pkN-J1-mVM" secondAttribute="trailing" constant="25" id="oFL-79-uqe"/>
+                <constraint firstItem="vmO-R4-jTl" firstAttribute="top" secondItem="nJh-Zn-eA5" secondAttribute="bottom" constant="1" id="qI1-ds-YVS"/>
+                <constraint firstItem="WtJ-Ml-RoG" firstAttribute="top" secondItem="ttd-Wk-ZHN" secondAttribute="bottom" constant="-6" id="qor-Yc-soV"/>
+                <constraint firstAttribute="trailing" secondItem="xg5-Eg-YgS" secondAttribute="trailing" constant="25" id="xzJ-LG-3wv"/>
+                <constraint firstItem="xg5-Eg-YgS" firstAttribute="top" secondItem="NUU-73-fLi" secondAttribute="bottom" constant="1" id="ydZ-MN-uQL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addPassToWalletHolderView" destination="OJW-CH-cSF" id="7ap-bX-NIS"/>
+                <outlet property="validDatesLabel" destination="vmO-R4-jTl" id="C5Y-Ii-Sfz"/>
+            </connections>
+            <point key="canvasLocation" x="321" y="323"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Right_arrow" width="10" height="13"/>
+        <image name="Wallet" width="29" height="29"/>
+        <image name="qr_code" width="243" height="243"/>
+    </resources>
+</document>

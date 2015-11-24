@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RemyAlertView" customModule="Travel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XoL-QU-iKQ">
+                    <rect key="frame" x="0.0" y="160" width="280" height="41"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="eWx-fK-za2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                    <state key="normal" title="DISMISS"/>
+                    <connections>
+                        <action selector="buttonFired:" destination="iN0-l3-epB" eventType="touchUpInside" id="9RO-Fw-rV2"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l5C-gK-DDE">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="58"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alert_on_popup" translatesAutoresizingMaskIntoConstraints="NO" id="rnm-Gp-sgy">
+                            <rect key="frame" x="128" y="30" width="24" height="24"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="mmR-Qd-VfS"/>
+                                <constraint firstAttribute="height" constant="24" id="vKs-qp-GNE"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="rnm-Gp-sgy" firstAttribute="centerX" secondItem="l5C-gK-DDE" secondAttribute="centerX" id="2Ui-mD-ayy"/>
+                        <constraint firstItem="rnm-Gp-sgy" firstAttribute="centerY" secondItem="l5C-gK-DDE" secondAttribute="centerY" constant="13" id="3G1-gb-d9j"/>
+                        <constraint firstAttribute="height" constant="58" id="aIW-Os-WU2"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Buo-yT-Ppx">
+                    <rect key="frame" x="31" y="60" width="218" height="83"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="83" id="FJr-xO-e2b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                    <color key="textColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Buo-yT-Ppx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="31" id="5M0-z1-zPu"/>
+                <constraint firstItem="XoL-QU-iKQ" firstAttribute="top" secondItem="Buo-yT-Ppx" secondAttribute="bottom" constant="17" id="64V-1X-UuA"/>
+                <constraint firstItem="XoL-QU-iKQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9OS-b2-HOI"/>
+                <constraint firstItem="l5C-gK-DDE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="D5v-WJ-3zJ"/>
+                <constraint firstItem="l5C-gK-DDE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UsY-KN-c2y"/>
+                <constraint firstAttribute="trailing" secondItem="l5C-gK-DDE" secondAttribute="trailing" id="eSP-XQ-De7"/>
+                <constraint firstAttribute="trailing" secondItem="Buo-yT-Ppx" secondAttribute="trailing" constant="31" id="q6e-4e-MqJ"/>
+                <constraint firstItem="Buo-yT-Ppx" firstAttribute="top" secondItem="l5C-gK-DDE" secondAttribute="bottom" constant="2" id="rr6-ZH-YSJ"/>
+                <constraint firstAttribute="trailing" secondItem="XoL-QU-iKQ" secondAttribute="trailing" id="xYZ-Ei-dF6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="3"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="alertBodyLabel" destination="Buo-yT-Ppx" id="jyD-Hl-W4K"/>
+                <outlet property="dismissButton" destination="XoL-QU-iKQ" id="GdO-gf-03l"/>
+                <outlet property="icon" destination="rnm-Gp-sgy" id="12m-4D-2EV"/>
+            </connections>
+            <point key="canvasLocation" x="265" y="572"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Alert_on_popup" width="25" height="25"/>
+    </resources>
+</document>

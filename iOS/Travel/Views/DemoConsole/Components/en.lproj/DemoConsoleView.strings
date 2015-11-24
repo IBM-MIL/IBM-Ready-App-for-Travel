@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "FvN-6U-xtW"; */
+"FvN-6U-xtW.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Demo Controller"; ObjectID = "NaX-6g-eYa"; */
+"NaX-6g-eYa.text" = "Demo Controller";
+
+/* Class = "UIButton"; normalTitle = "S H O W   O N B O A R D I N G"; ObjectID = "VGW-8O-WDy"; */
+"VGW-8O-WDy.normalTitle" = "S H O W   O N B O A R D I N G";
+
+/* Class = "UIButton"; normalTitle = "Add Transportation"; ObjectID = "efn-Rb-fMW"; */
+"efn-Rb-fMW.normalTitle" = "Add Transportation";
+
+/* Class = "UIButton"; normalTitle = "Inclement Weather Alert"; ObjectID = "iwC-YQ-f7c"; */
+"iwC-YQ-f7c.normalTitle" = "Inclement Weather Alert";
+
+/* Class = "UIButton"; normalTitle = "Add Hotel"; ObjectID = "tg2-fH-jkI"; */
+"tg2-fH-jkI.normalTitle" = "Add Hotel";

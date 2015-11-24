@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed Materials - Property of IBM
+    5725-I43 (C) Copyright IBM Corp. 2011, 2013. All Rights Reserved.
+    US Government Users Restricted Rights - Use, duplication or
+    disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+-->
+<nativeIOSApp id="travel_iOS" platformVersion="7.1.0.00.20150807-0630" bundleId="com.traveliOS" 
+	version="1.0" xmlns="http://www.worklight.com/native-ios-descriptor">
+	
+	<displayName>travel_iOS</displayName>
+	<description>travel_iOS</description>
+	<accessTokenExpiration>3600</accessTokenExpiration>
+	<userIdentityRealms></userIdentityRealms>
+	<!-- 
+        Define the target category for generating ADRESSABLE DEVICE license reports 
+        Possible values are 'UNDEFINED', 'B2E', 'B2C'
+     -->
+    <targetCategory>UNDEFINED</targetCategory>	
+</nativeIOSApp>

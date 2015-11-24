@@ -1,0 +1,6 @@
+framework module IBMMobileFirstPlatformFoundation {
+  umbrella header "IBMMobileFirstPlatformFoundation.h"
+
+  export *
+  module * { export * }
+}

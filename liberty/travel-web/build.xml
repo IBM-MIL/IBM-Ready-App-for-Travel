@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build-web" name="travel-web">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../../../Applications/EclipseLiberty.app/Contents/Eclipse/"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <fail message="Please update the liberty.location property to point to your local Liberty installation directory (../wlp) in build.xml!">
+        <condition>
+            <or>
+                <equals arg1="${liberty.location}" arg2=""/>
+                <not>
+                    <isset property="liberty.location"/>
+                </not>
+            </or>
+        </condition>
+    </fail>
+    <path id="Liberty.libraryclasspath">
+        <fileset dir="${liberty.location}/dev/api/ibm/">
+            <include name="*.jar" />
+        </fileset>
+        <fileset dir="${liberty.location}/dev/api/spec/">
+            <include name="*.jar" />
+        </fileset>
+        <fileset dir="${liberty.location}/dev/api/third-party/">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+    <path id="EAR Libraries.libraryclasspath">
+        <fileset dir="../travel-ear/EarContent/lib">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+    <path id="EJBClasses">
+        <pathelement location="../travel-ejb/deploy/travel-ejb.jar" />
+    </path>
+
+
+    <path id="travel-web.classpath">
+        <pathelement location="WebContent/WEB-INF/classes"/>
+        <path refid="Liberty.libraryclasspath"/>
+        <path refid="EJBClasses" />
+        <path refid="EAR Libraries.libraryclasspath"/>
+    </path>
+
+
+    <property name="buildDir" value="WebContent/WEB-INF/classes" />
+    <property name="deployDir" value="deploy" />
+    <property name="webxml" value="WebContent/WEB-INF/web.xml" />
+
+    <target name="init">
+        <mkdir dir="${buildDir}"/>
+
+        <copy includeemptydirs="false" todir="${buildDir}">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="${buildDir}">
+            <fileset dir=".apt_generated">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="${buildDir}"/>
+        <delete dir="${deployDir}"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-web" name="build" />
+    <target depends="clean, init" name="build-web">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="${buildDir}" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <src path=".apt_generated"/>
+            <classpath refid="travel-web.classpath"/>
+        </javac>
+        <war destfile="${deployDir}/travel-web.war" webxml="${webxml}" encoding="UTF8" manifest="WebContent/META-INF/MANIFEST.MF" >
+            <fileset dir="WebContent" />
+        </war>
+        <exec dir="WebContent" executable="zip" >
+            <arg line="-d ../${deployDir}/travel-web.war META-INF/MANIFEST.MF" /> 
+        </exec>
+        <exec dir="WebContent" executable="zip" >
+            <arg line="-ur ../${deployDir}/travel-web.war META-INF/MANIFEST.MF" /> 
+        </exec>
+    </target>
+</project>

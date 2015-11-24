@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </mutableArray>
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NewTripPopupView" customModule="Travel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="172"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_trip" translatesAutoresizingMaskIntoConstraints="NO" id="E42-gi-Hcm">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="172"/>
+                    <animations/>
+                </imageView>
+                <view alpha="0.14999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Olh-1v-PbE">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="172"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t00-zE-NUl">
+                    <rect key="frame" x="154" y="16" width="293" height="39"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="293" id="FSc-2n-mMp"/>
+                    </constraints>
+                    <string key="text">Would you like to create a new trip itinerary
+based on your week pass in Berlin?</string>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SD1-cO-yX2">
+                    <rect key="frame" x="17" y="77" width="566" height="45"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="TA1-nd-cih"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="11"/>
+                    <state key="normal" title="C R E A T E   N E W   T R I P">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <animations/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Olh-1v-PbE" secondAttribute="bottom" id="6EN-2q-cSH"/>
+                <constraint firstItem="E42-gi-Hcm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CZO-17-PWg"/>
+                <constraint firstItem="Olh-1v-PbE" firstAttribute="top" secondItem="E42-gi-Hcm" secondAttribute="top" id="FgF-S6-J58"/>
+                <constraint firstItem="t00-zE-NUl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KWE-mL-LOW"/>
+                <constraint firstAttribute="bottom" secondItem="E42-gi-Hcm" secondAttribute="bottom" id="Kmm-0h-3C2"/>
+                <constraint firstItem="SD1-cO-yX2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="17" id="NjM-Me-lGI"/>
+                <constraint firstItem="t00-zE-NUl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="OFj-EO-nvb"/>
+                <constraint firstItem="E42-gi-Hcm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Oeq-QX-7uH"/>
+                <constraint firstAttribute="trailing" secondItem="E42-gi-Hcm" secondAttribute="trailing" id="QIx-8m-vdB"/>
+                <constraint firstItem="Olh-1v-PbE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SpX-Lj-9U9"/>
+                <constraint firstAttribute="trailing" secondItem="SD1-cO-yX2" secondAttribute="trailing" constant="17" id="W2E-82-UTJ"/>
+                <constraint firstItem="Olh-1v-PbE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="f63-Oa-GUZ"/>
+                <constraint firstAttribute="trailing" secondItem="Olh-1v-PbE" secondAttribute="trailing" id="rGw-UD-eho"/>
+                <constraint firstItem="SD1-cO-yX2" firstAttribute="top" secondItem="t00-zE-NUl" secondAttribute="bottom" constant="22" id="wfM-e5-Ndc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="SpX-Lj-9U9"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="createNewTripButton" destination="SD1-cO-yX2" id="r6c-fe-xSX"/>
+            </connections>
+            <point key="canvasLocation" x="443" y="188"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="new_trip" width="375" height="149"/>
+    </resources>
+</document>

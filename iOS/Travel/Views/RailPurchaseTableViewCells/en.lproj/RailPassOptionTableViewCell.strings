@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "(1) Seven Day Pass"; ObjectID = "SfC-Bo-sjX"; */
+"SfC-Bo-sjX.text" = "(1) Seven Day Pass";
+
+/* Class = "UILabel"; text = "€29,50"; ObjectID = "oDx-Le-evG"; */
+"oDx-Le-evG.text" = "€29,50";
+
+/* Class = "UILabel"; text = "Valid for seven consecutive days from the\npurchase date."; ObjectID = "sb1-Hs-kkV"; */
+"sb1-Hs-kkV.text" = "Valid for seven consecutive days from the\npurchase date.";
+
+/* Class = "UILabel"; text = "First Class"; ObjectID = "wF6-iI-RjX"; */
+"wF6-iI-RjX.text" = "First Class";
+
+/* Class = "UILabel"; text = "Preferred"; ObjectID = "xid-WP-e6t"; */
+"xid-WP-e6t.text" = "Preferred";

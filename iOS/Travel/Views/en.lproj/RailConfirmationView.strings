@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "First Class"; ObjectID = "LK1-hs-w8p"; */
+"LK1-hs-w8p.text" = "First Class";
+
+/* Class = "UILabel"; text = "Pass ID"; ObjectID = "NUU-73-fLi"; */
+"NUU-73-fLi.text" = "Pass ID";
+
+/* Class = "UILabel"; text = "€29,50"; ObjectID = "QKQ-OC-jGx"; */
+"QKQ-OC-jGx.text" = "€29,50";
+
+/* Class = "UILabel"; text = "Lara Hoffman"; ObjectID = "QhY-ib-Z7X"; */
+"QhY-ib-Z7X.text" = "Lara Hoffman";
+
+/* Class = "UILabel"; text = "Seven Day Pass"; ObjectID = "WtJ-Ml-RoG"; */
+"WtJ-Ml-RoG.text" = "Seven Day Pass";
+
+/* Class = "UILabel"; text = "Passenger Information"; ObjectID = "cIa-ba-saV"; */
+"cIa-ba-saV.text" = "Passenger Information";
+
+/* Class = "UILabel"; text = "Valid Through"; ObjectID = "nJh-Zn-eA5"; */
+"nJh-Zn-eA5.text" = "Valid Through";
+
+/* Class = "UILabel"; text = "The seven-day-pass is valid seven consecutive days from\nits start date. Its validation ends on the seventh day at\nmidnight. The pass costs €29,50."; ObjectID = "pkN-J1-mVM"; */
+"pkN-J1-mVM.text" = "The seven-day-pass is valid seven consecutive days from\nits start date. Its validation ends on the seventh day at\nmidnight. The pass costs €29,50.";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "qii-Ez-873"; */
+"qii-Ez-873.text" = "Details";
+
+/* Class = "UILabel"; text = "21 Sep - 28 Sep, 2015"; ObjectID = "vmO-R4-jTl"; */
+"vmO-R4-jTl.text" = "21 Sep - 28 Sep, 2015";
+
+/* Class = "UILabel"; text = "Add pass to Wallet"; ObjectID = "wxM-AL-xPB"; */
+"wxM-AL-xPB.text" = "Add pass to Wallet";
+
+/* Class = "UILabel"; text = "SWAMBPQ-0"; ObjectID = "xg5-Eg-YgS"; */
+"xg5-Eg-YgS.text" = "SWAMBPQ-0";

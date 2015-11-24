@@ -1,0 +1,35 @@
+package remy$45$itineraries {
+
+  flowtask hotels {
+    property mainflowtask = true;
+    property ilog.rules.business_name = "hotels";
+    property ilog.rules.package_name = "remy-itineraries";
+    body {
+      hotels#applyPromotionalDiscount;
+      hotels#applyLoyaltyDiscount;
+    }
+  };
+
+  ruletask hotels#applyPromotionalDiscount {
+    property ilog.rules.business_name = "hotels>applyPromotionalDiscount";
+    property ilog.rules.package_name = "remy-itineraries";
+    algorithm = sequential;
+    property ilog.rules.engine.sequential.fastpath = true;
+    ordering = sorted;
+    body {
+      remy$45$itineraries.applyPromotionalDiscount
+    }
+  };
+
+  ruletask hotels#applyLoyaltyDiscount {
+    property ilog.rules.business_name = "hotels>applyLoyaltyDiscount";
+    property ilog.rules.package_name = "remy-itineraries";
+    algorithm = sequential;
+    property ilog.rules.engine.sequential.fastpath = true;
+    ordering = sorted;
+    body {
+      remy$45$itineraries.applyLoyaltyDiscount
+    }
+  };
+
+}

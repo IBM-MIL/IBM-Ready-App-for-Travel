@@ -1,0 +1,64 @@
+So the way the times are going to work is that we'll use the offsets below, along with scrubing the time to get 
+the time for each event. Scrubbing is basically just taking the time now, and setting all its values for seconds, hours,
+etc to 0 so its basically midnight on the day of.  
+
+//one min
+60000
+
+//fifteen mins
+900000
+
+//30 mins
+1800000
+
+//45 mins
+2700000
+
+12am one week from now
+604800000
+1am one week from now
+608400000
+2am one week from now
+612000000
+3am one week from now
+615600000
+4am one week from now
+619200000
+5am one week from now
+622800000
+6am one week from now
+626400000
+7am one week from now
+630000000
+8am one week from now
+633600000
+9am one week from now
+637200000
+10am one week from now
+640800000
+11am one week from now
+644400000
+12pm one week from now
+648000000
+1pm one week from now
+651600000
+2pm one week from now
+655200000
+3pm one week from now
+658800000
+4pm one week from now
+662400000
+5pm one week from now
+666000000
+6pm one week from now
+669600000
+7pm one week from now
+673200000
+8pm one week from now
+676800000
+9pm one week from now
+680400000
+10pm one week from now
+684000000
+11pm one week from now
+687600000

@@ -1,0 +1,57 @@
+
+/* Class = "UIButton"; normalTitle = "Visit website"; ObjectID = "1jt-j1-3fk"; */
+"1jt-j1-3fk.normalTitle" = "Visit website";
+
+/* Class = "UILabel"; text = "Check-out"; ObjectID = "88w-H4-rGY"; */
+"88w-H4-rGY.text" = "Check-out";
+
+/* Class = "UILabel"; text = "Check-in"; ObjectID = "8og-7m-CnY"; */
+"8og-7m-CnY.text" = "Check-in";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "FSD-uG-YVL"; */
+"FSD-uG-YVL.text" = "Location";
+
+/* Class = "UILabel"; text = "Gartenbrand Preferred Guest"; ObjectID = "KAs-ZN-LWr"; */
+"KAs-ZN-LWr.text" = "Gartenbrand Preferred Guest";
+
+/* Class = "UILabel"; text = "11:00, 25 Sep"; ObjectID = "NZc-ky-ySK"; */
+"NZc-ky-ySK.text" = "11:00, 25 Sep";
+
+/* Class = "UILabel"; text = "Open reservation in Wallet"; ObjectID = "QYZ-g9-6jM"; */
+"QYZ-g9-6jM.text" = "Open reservation in Wallet";
+
+/* Class = "UILabel"; text = "10,000"; ObjectID = "SDF-X6-KqQ"; */
+"SDF-X6-KqQ.text" = "10,000";
+
+/* Class = "UILabel"; text = "Hotel Gartenbrand"; ObjectID = "Tff-ZM-phd"; */
+"Tff-ZM-phd.text" = "Hotel Gartenbrand";
+
+/* Class = "UILabel"; text = "DAB2F3"; ObjectID = "bvW-Md-7ur"; */
+"bvW-Md-7ur.text" = "DAB2F3";
+
+/* Class = "UILabel"; text = "Confirmation"; ObjectID = "c8U-Oz-DIC"; */
+"c8U-Oz-DIC.text" = "Confirmation";
+
+/* Class = "UILabel"; text = "Rewards Program"; ObjectID = "dUD-5x-RWH"; */
+"dUD-5x-RWH.text" = "Rewards Program";
+
+/* Class = "UILabel"; text = "17º"; ObjectID = "g2h-NU-NUm"; */
+"g2h-NU-NUm.text" = "17º";
+
+/* Class = "UILabel"; text = "Points Earned"; ObjectID = "hrw-Dy-3sG"; */
+"hrw-Dy-3sG.text" = "Points Earned";
+
+/* Class = "UILabel"; text = "13:30"; ObjectID = "u3d-mu-uwF"; */
+"u3d-mu-uwF.text" = "13:30";
+
+/* Class = "UILabel"; text = "Reviews from Google"; ObjectID = "vHA-aH-XOD"; */
+"vHA-aH-XOD.text" = "Reviews from Google";
+
+/* Class = "UILabel"; text = "Monday, 21 Sep"; ObjectID = "wk1-hV-KuI"; */
+"wk1-hV-KuI.text" = "Monday, 21 Sep";
+
+/* Class = "UILabel"; text = "Beusselstraße 2T\n10551 Berlin"; ObjectID = "x1S-TR-OkX"; */
+"x1S-TR-OkX.text" = "Beusselstraße 2T\n10551 Berlin";
+
+/* Class = "UIButton"; normalTitle = "Contact hotel"; ObjectID = "zol-8A-tSG"; */
+"zol-8A-tSG.normalTitle" = "Contact hotel";

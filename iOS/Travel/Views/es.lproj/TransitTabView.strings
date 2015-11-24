@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "1"; ObjectID = "0ZR-Rr-2ff"; */
+"0ZR-Rr-2ff.text" = "1-ES";
+
+/* Class = "UILabel"; text = "Enter your destination"; ObjectID = "66I-oZ-ltq"; */
+"66I-oZ-ltq.text" = "Enter your destination-ES";
+
+/* Class = "UILabel"; text = "Departure"; ObjectID = "BZ7-uA-IYf"; */
+"BZ7-uA-IYf.text" = "Departure-ES";
+
+/* Class = "UILabel"; text = "Class"; ObjectID = "Irn-JL-Xox"; */
+"Irn-JL-Xox.text" = "Class-ES";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "Mxp-Df-qgC"; */
+"Mxp-Df-qgC.text" = "From-ES";
+
+/* Class = "UILabel"; text = "Return"; ObjectID = "Uaf-am-wRj"; */
+"Uaf-am-wRj.text" = "Return-ES";
+
+/* Class = "UIButton"; normalTitle = "S E A R C H"; ObjectID = "W9o-lj-bIN"; */
+"W9o-lj-bIN.normalTitle" = "S E A R C H-ES";
+
+/* Class = "UILabel"; text = "Your Current Location"; ObjectID = "ZBV-bp-Bkl"; */
+"ZBV-bp-Bkl.text" = "Your Current Location-ES";
+
+/* Class = "UILabel"; text = "Set Date"; ObjectID = "Zcf-0h-qfD"; */
+"Zcf-0h-qfD.text" = "Set Date-ES";
+
+/* Class = "UILabel"; text = "Mon, 24 Aug"; ObjectID = "cuc-aa-BuL"; */
+"cuc-aa-BuL.text" = "Mon, 24 Aug-ES";
+
+/* Class = "UILabel"; text = "Passengers"; ObjectID = "i3c-9u-mvr"; */
+"i3c-9u-mvr.text" = "Passengers-ES";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "kLg-pX-IUC"; */
+"kLg-pX-IUC.text" = "To-ES";
+
+/* Class = "UILabel"; text = "Select Class"; ObjectID = "kbd-wS-qak"; */
+"kbd-wS-qak.text" = "Select Class-ES";

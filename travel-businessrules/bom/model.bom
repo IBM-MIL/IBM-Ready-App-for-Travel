@@ -1,0 +1,419 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/travel-businessrules//travel-java-common"
+property uuid "3204db06-3b39-4096-aac4-4c364f8ed100"
+package com.ibm.ra.remy.common.impl;
+
+
+public class CloudantLocation
+        extends java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyLocation
+{
+    public string city;
+    public string country;
+    public readonly double latitude;
+    public readonly double longitude;
+    public CloudantLocation(java.util.Map arg);
+    public CloudantLocation();
+    public string toString();
+}
+
+public class CloudantObject
+        extends java.io.Serializable
+{
+    public string _rev;
+    public string id;
+    public string type;
+    public CloudantObject(com.ibm.ra.remy.common.impl.CloudantObject arg);
+    public CloudantObject(java.util.Map arg);
+    public CloudantObject();
+    public string toString();
+}
+
+public class GooglePlacesLocation
+        extends java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyLocation
+{
+    public string city;
+    public string country;
+    public com.ibm.ra.remy.common.impl.LatLong location;
+    public GooglePlacesLocation(java.util.Map arg);
+    public GooglePlacesLocation();
+    public string toString();
+}
+
+public class LatLong
+        extends java.io.Serializable
+{
+    public double lat;
+    public double lng;
+    public LatLong(double arg1, double arg2);
+    public LatLong();
+    public double distanceTo(com.ibm.ra.remy.common.impl.LatLong arg);
+    public string toString();
+}
+
+public class RemyEventDateImpl
+        extends java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyEventDate
+{
+    public string condition;
+    public readonly long date;
+    public readonly java.util.List events domain 0,* class com.ibm.ra.remy.common.model.RemyEvent;
+    public readonly string highTemperature;
+    public readonly string lowTemperature;
+    public RemyEventDateImpl(string arg1, string arg2, long arg3, string arg4);
+    public void addEvent(com.ibm.ra.remy.common.model.RemyEvent arg);
+    public void fixTime();
+    public void removeEvent(com.ibm.ra.remy.common.model.RemyEvent arg);
+    public void setTemperature(string arg1, string arg2);
+    public void sortEvents();
+    public string toString();
+}
+
+public class RemyEventImpl
+        extends com.ibm.ra.remy.common.impl.CloudantObject, java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyEvent
+{
+    public boolean affectedByWeather;
+    public readonly string itineraryId;
+    public readonly boolean outdoor;
+    public readonly string subtype;
+    public readonly long time;
+    public RemyEventImpl(java.util.Map arg1, string arg2);
+    public RemyEventImpl(string arg1, string arg2, long arg3, long arg4);
+    public RemyEventImpl();
+    public void fixTime();
+    public string toString();
+}
+
+public class RemyFlightEvent
+        extends com.ibm.ra.remy.common.impl.RemyEventImpl, java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyEvent
+{
+    public readonly string itineraryId;
+    public readonly boolean outdoor;
+    public readonly string subtype;
+    public readonly long time;
+    public RemyFlightEvent(java.util.Map arg1, string arg2);
+    public void fixTime();
+    public string toString();
+}
+
+public class RemyItineraryImpl
+        extends com.ibm.ra.remy.common.impl.CloudantObject, java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyItinerary
+{
+    public readonly java.util.List allDates domain 0,* class com.ibm.ra.remy.common.model.RemyEventDate;
+    public readonly long endTime;
+    public readonly string id;
+    public readonly com.ibm.ra.remy.common.model.RemyLocation initialLocation;
+    public readonly long startTime;
+    public readonly string title;
+    public readonly string user;
+    public int version;
+    public RemyItineraryImpl(java.util.HashMap arg);
+    public RemyItineraryImpl();
+    public void addDate(com.ibm.ra.remy.common.model.RemyEventDate arg);
+    public void fixTime();
+    public com.ibm.ra.remy.common.model.RemyEventDate getDate(long arg);
+    public void sortAllEvents();
+}
+
+public class RemyLodgingEvent
+        extends com.ibm.ra.remy.common.impl.RemyEventImpl, java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyEvent
+{
+    public string _id;
+    public long checkin;
+    public long checkout;
+    public string confirmation;
+    public string description;
+    public string displayType;
+    public long end_time;
+    public com.ibm.ra.remy.common.impl.GooglePlacesLocation geometry;
+    public boolean hasPromotionalDiscount;
+    public string imageUrl;
+    public boolean isLoyaltyMember;
+    public boolean isPreferred;
+    public string itineraryId;
+    public string location;
+    public com.ibm.ra.remy.common.impl.RemyLodgingEventDiscount loyaltyDiscount;
+    public long loyaltyPoints;
+    public string loyaltyProgramName;
+    public string meetingName;
+    public string name;
+    public float original_price;
+    public readonly boolean outdoor;
+    public float price;
+    public com.ibm.ra.remy.common.impl.RemyLodgingEventDiscount promotionalDiscount;
+    public long rating;
+    public string rationale;
+    public string reviewHighlight;
+    public string reviewTime;
+    public string reviewer;
+    public string room;
+    public long start_time;
+    public string subType;
+    public readonly string subtype;
+    public readonly long time;
+    public string vicinity;
+    public RemyLodgingEvent(string arg);
+    public RemyLodgingEvent(java.util.Map arg1, string arg2);
+    public RemyLodgingEvent();
+    public void fixTime();
+    public string toString();
+}
+
+public class RemyLodgingEventDiscount
+        extends java.io.Serializable
+{
+    public float discountedPrice;
+    public string message;
+    public float previousPrice;
+    public RemyLodgingEventDiscount(string arg1, float arg2, float arg3);
+    public RemyLodgingEventDiscount();
+}
+
+public class RemyMeetingEvent
+        extends com.ibm.ra.remy.common.impl.RemyEventImpl, java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyEvent
+{
+    public readonly com.ibm.ra.remy.common.impl.GooglePlacesLocation geometry;
+    public readonly string itineraryId;
+    public readonly boolean outdoor;
+    public readonly string subtype;
+    public readonly long time;
+    public RemyMeetingEvent(java.util.Map arg1, string arg2);
+    public void fixTime();
+    public string toString();
+}
+
+public class RemyRecommendationsEvent
+        extends com.ibm.ra.remy.common.impl.RemyEventImpl, java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyEvent
+{
+    public readonly boolean alert;
+    public string associatedEventId;
+    public readonly string message;
+    public readonly boolean outdoor;
+    public readonly string recType;
+    public java.util.List recommendationList domain 0,* class com.ibm.ra.remy.common.model.RemyEvent;
+    public readonly string subtype;
+    public RemyRecommendationsEvent(java.util.Map arg1, string arg2);
+    public RemyRecommendationsEvent(string arg1, 
+        long arg2, 
+        long arg3, 
+        string arg4, 
+        string arg5, 
+        boolean arg6, 
+        java.util.List arg7 domain 0,* class com.ibm.ra.remy.common.model.RemyEvent);
+    public RemyRecommendationsEvent();
+    public void addEvent(com.ibm.ra.remy.common.model.RemyEvent arg);
+    public void fixTime();
+    public string toString();
+}
+
+public class RemyRecsImpl
+        extends java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyRecs
+{
+    public com.ibm.ra.remy.common.impl.RemyRecommendationsEvent lodgingRecs;
+    public com.ibm.ra.remy.common.impl.RemyRecommendationsEvent restaurantRecs;
+    public com.ibm.ra.remy.common.impl.RemyRecommendationsEvent transitRecs;
+    public readonly string user;
+    public RemyRecsImpl(java.util.List arg domain 0,* class java.util.HashMap);
+    public RemyRecsImpl(string arg);
+    public RemyRecsImpl(com.ibm.ra.remy.common.impl.RemyRecommendationsEvent arg1, com.ibm.ra.remy.common.impl.RemyRecommendationsEvent arg2, com.ibm.ra.remy.common.impl.RemyRecommendationsEvent arg3);
+    public RemyRecsImpl();
+    public void addRec(com.ibm.ra.remy.common.model.RemyEvent arg);
+    public void fixTime();
+}
+
+public class RemyRestaurantEvent
+        extends com.ibm.ra.remy.common.impl.RemyEventImpl, java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyEvent
+{
+    public readonly com.ibm.ra.remy.common.impl.GooglePlacesLocation geometry;
+    public readonly string itineraryId;
+    public readonly string name;
+    public readonly boolean outdoor;
+    public com.ibm.ra.remy.common.impl.RemyRecommendationsEvent recommendedReplacements;
+    public readonly string subtype;
+    public readonly long time;
+    public RemyRestaurantEvent(java.util.Map arg1, string arg2);
+    public void fixTime();
+    public string toString();
+}
+
+public class RemyTransitEvent
+        extends com.ibm.ra.remy.common.impl.RemyEventImpl, java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyEvent
+{
+    public readonly double costDouble;
+    public readonly string ios_transit_name;
+    public readonly int numTransfers;
+    public readonly boolean outdoor;
+    public readonly string subtype;
+    public readonly long totalDuration;
+    public readonly java.util.List transitSteps domain 0,* class com.ibm.ra.remy.common.impl.RemyTransitStep;
+    public readonly long waitingTime;
+    public readonly double walkingDistance;
+    public RemyTransitEvent(java.util.Map arg1, string arg2);
+    public void fixTime();
+    public string toString();
+}
+
+public class RemyTransitStep
+        extends java.io.Serializable
+{
+    public java.lang.Long endTime;
+    public java.lang.Long startTime;
+    public RemyTransitStep(java.util.Map arg);
+    public RemyTransitStep();
+    public void fixTime();
+    public string toString();
+}
+
+public class RemyTravelDataImpl
+        extends com.ibm.ra.remy.common.impl.CloudantObject, java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyTravelData
+{
+    public readonly java.util.List itineraries domain 0,* class com.ibm.ra.remy.common.model.RemyItinerary;
+    public RemyTravelDataImpl(java.util.List arg domain 0,* class com.ibm.ra.remy.common.model.RemyItinerary);
+    public RemyTravelDataImpl();
+    public void addItinerary(com.ibm.ra.remy.common.model.RemyItinerary arg);
+    public void fixTime();
+}
+
+public class RemyWeatherImpl
+        extends com.ibm.ra.remy.common.impl.CloudantObject, java.io.Serializable
+        implements com.ibm.ra.remy.common.model.RemyWeather
+{
+
+    private class EnglishMetricObject
+    {
+    }
+    public readonly string condition;
+    public long date;
+    public com.ibm.ra.remy.common.model.RemyLocation location;
+    public RemyWeatherImpl(java.util.HashMap arg);
+    public RemyWeatherImpl();
+    public void fixTime();
+    public string getTemperature(boolean arg);
+}
+
+public class User
+        extends com.ibm.ra.remy.common.impl.CloudantObject, java.io.Serializable
+{
+    public string company;
+    public string firstName;
+    public string lastName;
+    public string locale;
+    public string password;
+    public string username;
+    public User();
+}
+
+package com.ibm.ra.remy.common.model;
+
+
+public interface RemyEvent
+{
+    public static final readonly string EVENT;
+    public static final readonly string FLIGHT;
+    public static final readonly string HOTEL_CHECKIN;
+    public static final readonly string HOTEL_CHECKOUT;
+    public static final readonly string HOTEL_STAY;
+    public static final readonly string ITINERARY;
+    public static final readonly string LODGING;
+    public static final readonly string MEETING;
+    public static final readonly string RECOMMENDATIONS;
+    public static final readonly string RECOMMENDATION_TYPE;
+    public static final readonly string RECTYPE_KEY;
+    public static final readonly string RESTAURANT;
+    public static final readonly string SUBTYPE_KEY;
+    public static final readonly string TRANSIT;
+    public static final readonly string TYPE_KEY;
+    public abstract boolean affectedByWeather;
+    public readonly abstract string id;
+    public readonly abstract string itineraryId;
+    public readonly abstract boolean outdoor;
+    public readonly abstract string subtype;
+    public readonly abstract long time;
+    public readonly abstract string type;
+    public void fixTime();
+}
+
+public interface RemyEventDate
+{
+    public abstract string condition;
+    public readonly abstract long date;
+    public readonly abstract java.util.List events domain 0,* class com.ibm.ra.remy.common.model.RemyEvent;
+    public readonly abstract string highTemperature;
+    public readonly abstract string lowTemperature;
+    public void addEvent(com.ibm.ra.remy.common.model.RemyEvent arg);
+    public void fixTime();
+    public void removeEvent(com.ibm.ra.remy.common.model.RemyEvent arg);
+    public void setTemperature(string arg1, string arg2);
+    public void sortEvents();
+}
+
+public interface RemyItinerary
+{
+    public readonly abstract java.util.List allDates domain 0,* class com.ibm.ra.remy.common.model.RemyEventDate;
+    public readonly abstract long endTime;
+    public readonly abstract string id;
+    public readonly abstract com.ibm.ra.remy.common.model.RemyLocation initialLocation;
+    public readonly abstract long startTime;
+    public readonly abstract string title;
+    public readonly abstract string user;
+    public abstract int version;
+    public void addDate(com.ibm.ra.remy.common.model.RemyEventDate arg);
+    public void fixTime();
+    public com.ibm.ra.remy.common.model.RemyEventDate getDate(long arg);
+    public void sortAllEvents();
+}
+
+public interface RemyLocation
+{
+    public abstract string city;
+    public abstract string country;
+}
+
+public interface RemyRecs
+{
+    public abstract com.ibm.ra.remy.common.impl.RemyRecommendationsEvent lodgingRecs;
+    public abstract com.ibm.ra.remy.common.impl.RemyRecommendationsEvent restaurantRecs;
+    public abstract com.ibm.ra.remy.common.impl.RemyRecommendationsEvent transitRecs;
+    public readonly abstract string user;
+    public void addRec(com.ibm.ra.remy.common.model.RemyEvent arg);
+    public void fixTime();
+}
+
+public interface RemyTravelData
+{
+    public readonly abstract java.util.List itineraries domain 0,* class com.ibm.ra.remy.common.model.RemyItinerary;
+    public void addItinerary(com.ibm.ra.remy.common.model.RemyItinerary arg);
+    public void fixTime();
+}
+
+public interface RemyWeather
+{
+    public readonly abstract string condition;
+    public readonly abstract long date;
+    public abstract com.ibm.ra.remy.common.model.RemyLocation location;
+    public void fixTime();
+    public string getTemperature(boolean arg);
+}
+
+package com.ibm.ra.remy.common.utils;
+
+
+public class DateUtils
+{
+    public DateUtils();
+    public static java.util.Date addHours(java.util.Date arg1, int arg2);
+    public static java.util.Date generalizeTime(java.util.Date arg);
+}
+

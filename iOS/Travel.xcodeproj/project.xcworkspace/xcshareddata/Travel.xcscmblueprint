@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0FB5379D58D3BC54032EAF8BB747538520D34527",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0FB5379D58D3BC54032EAF8BB747538520D34527" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1CBF3E48-CC9F-41A4-90F7-97368CEB5263",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0FB5379D58D3BC54032EAF8BB747538520D34527" : "Ready.App.7\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Travel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOS\/Travel.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/hub.jazz.net\/git\/milbuild\/Ready.App.7.Remy",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0FB5379D58D3BC54032EAF8BB747538520D34527"
+    }
+  ]
+}

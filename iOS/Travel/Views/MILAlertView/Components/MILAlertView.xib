@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MILAlertView" customModule="Travel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="418" height="274"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sTY-5D-siA">
+                    <rect key="frame" x="192" y="41" width="38" height="38"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="HDb-ni-Bx4"/>
+                        <constraint firstAttribute="width" constant="38" id="wh5-Rv-9xb"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="749" text="Oops!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjl-fL-7aM">
+                    <rect key="frame" x="38" y="84" width="342" height="47"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="29"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The action requested has failed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBL-xX-h4b">
+                    <rect key="frame" x="38" y="136" width="342" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.57254901960000004" green="0.57647058819999997" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wx9-QW-Ep4">
+                    <rect key="frame" x="38" y="175" width="342" height="58"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.1137254902" green="0.67450980390000004" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="MKf-vX-QdO"/>
+                    </constraints>
+                    <state key="normal" title="Return To Screen">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonFired:" destination="iN0-l3-epB" eventType="touchDown" id="R6F-gT-ggS"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="load.gif" translatesAutoresizingMaskIntoConstraints="NO" id="iTl-nX-DRT">
+                    <rect key="frame" x="176" y="175" width="66" height="66"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="66" id="Qcx-xR-Xdf"/>
+                        <constraint firstAttribute="width" constant="66" id="iZL-ix-YZT"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Wjl-fL-7aM" firstAttribute="top" secondItem="sTY-5D-siA" secondAttribute="bottom" constant="5" id="2n3-SH-aDO"/>
+                <constraint firstAttribute="bottom" secondItem="wx9-QW-Ep4" secondAttribute="bottom" constant="41" id="58q-qc-S8L"/>
+                <constraint firstItem="sTY-5D-siA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="192" id="En7-Jp-dxI"/>
+                <constraint firstItem="pBL-xX-h4b" firstAttribute="top" secondItem="Wjl-fL-7aM" secondAttribute="bottom" constant="5" id="EqL-X0-L1e"/>
+                <constraint firstAttribute="trailing" secondItem="pBL-xX-h4b" secondAttribute="trailing" constant="38" id="F54-Ur-6vL"/>
+                <constraint firstAttribute="centerX" secondItem="iTl-nX-DRT" secondAttribute="centerX" id="GO7-rA-HnV"/>
+                <constraint firstAttribute="trailing" secondItem="wx9-QW-Ep4" secondAttribute="trailing" constant="38" id="GZh-yZ-Njt"/>
+                <constraint firstAttribute="trailing" secondItem="sTY-5D-siA" secondAttribute="trailing" constant="188" id="TfD-b7-CQ5"/>
+                <constraint firstItem="pBL-xX-h4b" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="acz-1a-3Ph"/>
+                <constraint firstItem="sTY-5D-siA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="41" id="bkA-oA-S7s"/>
+                <constraint firstItem="wx9-QW-Ep4" firstAttribute="top" secondItem="pBL-xX-h4b" secondAttribute="bottom" constant="19" id="lOV-8w-Fdn"/>
+                <constraint firstItem="Wjl-fL-7aM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="pJP-Zd-mth"/>
+                <constraint firstItem="wx9-QW-Ep4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="s2l-8i-gsn"/>
+                <constraint firstAttribute="trailing" secondItem="Wjl-fL-7aM" secondAttribute="trailing" constant="38" id="yjl-xk-gJ3"/>
+                <constraint firstItem="wx9-QW-Ep4" firstAttribute="top" secondItem="iTl-nX-DRT" secondAttribute="top" id="zgZ-Wp-fpc"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="alertBodyLabel" destination="pBL-xX-h4b" id="Tnz-yo-WOz"/>
+                <outlet property="alertButton" destination="wx9-QW-Ep4" id="eZO-lm-aYc"/>
+                <outlet property="alertTitleLabel" destination="Wjl-fL-7aM" id="KjR-i9-4yP"/>
+                <outlet property="loadingImage" destination="iTl-nX-DRT" id="X5e-hJ-zEs"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="load.gif" width="12" height="20"/>
+    </resources>
+</document>

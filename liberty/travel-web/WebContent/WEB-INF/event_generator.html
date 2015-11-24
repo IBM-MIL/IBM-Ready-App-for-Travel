@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Remy Event Generator</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">
+var pin = "*PIN*";
+
+function loadPin() {
+	document.getElementById("pinBox").innerHTML = pin;
+	document.getElementById("pinForm").value = pin;
+}
+</script>
+</head>
+<body onload="loadPin();">
+<p>
+Your PIN is: <span id="pinBox"></span>
+</p>
+<form action="/liberty-web/remy/event_generator" method="POST">
+<p>
+Weather selection:
+<select name="weather_condition">
+<option value="clear">Clear</option>
+<option value="windy">Windy</option>
+<option value="cloudy">Cloudy</option>
+<option value="rain">Rain</option>
+<option value="thunderstorm">Thunderstorm</option>
+<option value="blizzard">Blizzard</option>
+<option value="hurricane">Hurricane</option>
+<option value="volcano">Volcano</option>
+</select>
+<input type="submit" value="Submit Weather Event" />
+<input type="hidden" id="pinForm" name="pin" value="" />
+</p>
+**RESPONSE**
+</form>
+</body>
+</html>

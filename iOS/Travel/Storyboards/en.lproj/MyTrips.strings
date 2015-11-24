@@ -1,0 +1,57 @@
+
+/* Class = "UIButton"; normalTitle = "View Recommendations"; ObjectID = "Al7-zc-zas"; */
+"Al7-zc-zas.normalTitle" = "View Recommendations";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "CEK-lE-dp7"; */
+"CEK-lE-dp7.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "   Back"; ObjectID = "CWh-81-sns"; */
+"CWh-81-sns.normalTitle" = "   Back";
+
+/* Class = "UIButton"; normalTitle = "   Back"; ObjectID = "Ctn-kc-kt2"; */
+"Ctn-kc-kt2.normalTitle" = "   Back";
+
+/* Class = "UILabel"; text = "This event occurs at an outdoor location during a time it\nmay be raining in an area of Berlin."; ObjectID = "IFo-4e-Pcl"; */
+"IFo-4e-Pcl.text" = "This event occurs at an outdoor location during a time it\nmay be raining in an area of Berlin.";
+
+/* Class = "UILabel"; text = "Restaurant Detail"; ObjectID = "Ijn-R6-2bL"; */
+"Ijn-R6-2bL.text" = "Restaurant Detail";
+
+/* Class = "UILabel"; text = "Event Detail"; ObjectID = "Nv2-iH-RAh"; */
+"Nv2-iH-RAh.text" = "Event Detail";
+
+/* Class = "UILabel"; text = "Restaurants"; ObjectID = "Oua-0e-Mbj"; */
+"Oua-0e-Mbj.text" = "Restaurants";
+
+/* Class = "UILabel"; text = "21 Sep"; ObjectID = "Q1I-VI-TBi"; */
+"Q1I-VI-TBi.text" = "21 Sep";
+
+/* Class = "UITabBarItem"; title = "Trips"; ObjectID = "QLs-mK-hed"; */
+"QLs-mK-hed.title" = "Trips";
+
+/* Class = "UILabel"; text = "Pass"; ObjectID = "SJq-FJ-ezo"; */
+"SJq-FJ-ezo.text" = "Pass";
+
+/* Class = "UIButton"; normalTitle = "U P D A T E   E V E N T"; ObjectID = "aJd-8Y-MTp"; */
+"aJd-8Y-MTp.normalTitle" = "U P D A T E   E V E N T";
+
+/* Class = "UILabel"; text = "Inclement Weather Warning"; ObjectID = "ahD-dR-qJg"; */
+"ahD-dR-qJg.text" = "Inclement Weather Warning";
+
+/* Class = "UIButton"; normalTitle = "OPEN IN-APP RAIL PASS"; ObjectID = "dNW-cH-gcd"; */
+"dNW-cH-gcd.normalTitle" = "OPEN IN-APP RAIL PASS";
+
+/* Class = "UIButton"; normalTitle = "Options"; ObjectID = "dYJ-o6-Wpu"; */
+"dYJ-o6-Wpu.normalTitle" = "Options";
+
+/* Class = "UIButton"; normalTitle = "Ignore"; ObjectID = "gA3-1A-bYN"; */
+"gA3-1A-bYN.normalTitle" = "Ignore";
+
+/* Class = "UIButton"; normalTitle = "Passes"; ObjectID = "oCf-xT-J6N"; */
+"oCf-xT-J6N.normalTitle" = "Passes";
+
+/* Class = "UILabel"; text = "Trips"; ObjectID = "qxs-ty-bLi"; */
+"qxs-ty-bLi.text" = "Trips";
+
+/* Class = "UIButton"; normalTitle = "   Back"; ObjectID = "yDR-tb-y8d"; */
+"yDR-tb-y8d.normalTitle" = "   Back";

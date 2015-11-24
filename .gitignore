@@ -1,0 +1,28 @@
+# if eclipse workspace is set as root of this project
+.metadata
+
+# WebSphere Liberty Rest Service
+liberty/travel-web/WebContent/WEB-INF/classes/
+liberty/travel-ejb/build/
+liberty/deploy/
+liberty/travel-ejb/deploy/
+liberty/travel-web/deploy/
+buildenvoy_tmp/
+upload-tmp/
+
+# MFP
+travel-mfpf/build/
+travel-mfpf/bin/
+travel-mfpf/server/java/bin/
+travel-mfpf/adapters/TravelDataAdapter/bin
+travel-mfpf/apps/iOS-bak
+travel-mfpf/apps/iOS
+
+# iOS
+iOS/Travel.xcodeproj/project.xcworkspace/xcuserdata/
+iOS/Travel.xcodeproj/xcuserdata/
+iOS/Travel/ExternalLibraries/Q4M.framework/
+iOS/build
+
+# Shared Java code
+travel-java-common/bin/

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>applyPromotionalDiscount</name>
+  <uuid>746ffb88-43f1-4838-ab27-3c7da0508374</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	booking is has promotional discount
+then
+	set the message of the promotional discount of booking to "15% off";
+	set the previous price of the promotional discount of booking to the price of booking;
+	set the discounted price of the promotional discount of booking to 0.85 * the price of booking;
+	set the price of booking to 0.85 * the price of booking;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

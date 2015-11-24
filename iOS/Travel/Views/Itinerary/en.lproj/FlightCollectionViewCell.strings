@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "7:15 - 8:30"; ObjectID = "0nq-eb-Wkf"; */
+"0nq-eb-Wkf.text" = "7:15 - 8:30";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "Crl-t1-0Hq"; */
+"Crl-t1-0Hq.text" = "3";
+
+/* Class = "UILabel"; text = "Stuttgart"; ObjectID = "KXf-br-rJs"; */
+"KXf-br-rJs.text" = "Stuttgart";
+
+/* Class = "UILabel"; text = "7:15"; ObjectID = "LP4-YJ-UF1"; */
+"LP4-YJ-UF1.text" = "7:15";
+
+/* Class = "UILabel"; text = "Terminal"; ObjectID = "OgT-Wf-ffO"; */
+"OgT-Wf-ffO.text" = "Terminal";
+
+/* Class = "UILabel"; text = "316"; ObjectID = "Qav-uo-anP"; */
+"Qav-uo-anP.text" = "316";
+
+/* Class = "UILabel"; text = "Berlin"; ObjectID = "RbM-2y-AWA"; */
+"RbM-2y-AWA.text" = "Berlin";
+
+/* Class = "UILabel"; text = "Boarding"; ObjectID = "YgB-xY-MGo"; */
+"YgB-xY-MGo.text" = "Boarding";
+
+/* Class = "UILabel"; text = "Arriving TXL"; ObjectID = "akG-I2-3Qv"; */
+"akG-I2-3Qv.text" = "Arriving TXL";
+
+/* Class = "UILabel"; text = "Gate"; ObjectID = "cA1-nq-vqt"; */
+"cA1-nq-vqt.text" = "Gate";
+
+/* Class = "UILabel"; text = "Departing STR"; ObjectID = "oRN-CA-h1p"; */
+"oRN-CA-h1p.text" = "Departing STR";

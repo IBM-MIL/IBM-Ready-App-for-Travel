@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="travel-mfpf">
+        <wb-resource deploy-path="/" source-path="/apps/deprecated-MFP7.0-iOS"/>
+        <property name="context-root" value="travel-mfpf"/>
+    </wb-module>
+</project-modules>
