@@ -22,14 +22,21 @@ Please visit [this page](http://lexdcy040194.ecloud.edst.ibm.com/travel_1_0_0/ho
 
 ## Project Structure
 
-* `/iOS`        directory for the iOS client.
-* `/liberty`     
-* `/RemyLiberty` 
-* `/travel-businessrules`
-* `/travel-businessrules-app`
-* `/travel-businessrules-deployment`
-* `/travel-java-common`
-* `/Travel-mfpf`    
+* `/iOS` directory for the iOS client.
+
+* `/liberty` WebSphere Liberty project that contains the main backend JAX-RS project. 
+
+* `/travel-businessrules` contains the rules and rule flows to apply discounts to partnering hotel bookings.
+
+* `/travel-businessrules-app` contains the associated application built by Business Rules. The application is deployed in the cloud to execute the rules on BlueMix.
+
+* `/travel-businessrules-deployment`  contains the target locations of Business Rules services (i.e. the url and credentials of our Business Rules service on BlueMix).
+
+* `/travel-java-common` Common Java code shared between the Business Rules and JAX-RS code.
+
+* `/Travel-mfpf` Mobile First Platform Foundation project containing the iOS native project and java script adapters.  Used as a common backend sitting between the JAX-RS service and the front end client(s).    
+
+
 
 ## License
 
